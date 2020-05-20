@@ -1,0 +1,131 @@
+A,C
+Do I have a responsibility to report that Firefox is outdated and contains security flaws?,1
+"This doesn't look to be a security question at all, but a DNS and whois database question.",1
+"Not all cases need crypto security. When it is needed, I'd go for arbitrary GUIDs instead.",1
+"Hello lserni, the script comes from an server, i'm still trying with base64 without succes",1
+"Ummm, if you're getting *Wrong SSL Gmail certificate* something is definitely wrong there.",1
+"@user3686362: A self-signature provides proof against tampering, but not additional trust.",1
+"@user2320464 I am wanting to use a salt, and my approach has a mention of salt or similar.",1
+Why do we keep getting these [questions](http://security.stackexchange.com/q/70660/30521)?,1
+But even on a router log the https websites are not visible except for the hostname right?,1
+"Could this way lead to a ""data sniffing"", and to get the plain http requests, for example?",1
+"I was reading up about the port changing, seems like a good idea to get bots off the scent",1
+"""can not say anything about who the recipient of the data"" - it can, but it is not trusted",1
+I do know what is EAPOL and how it works. I am just not familiar with what is its payload.,1
+@DeerHunter by security I mean lack of attack vectors which involve TLD specific features.,1
++1 on the class.  It is quite challenging. Note that the programming assignments are in C.,1
++1 for noting that the algorithm is only one potential weakness of a cryptographic system.,1
+You could try that for yourself by asking a friend to try some social engineering on them.,1
+Exactly! Any idea what other reasons could an organization have to disable hibernate mode?,1
+"What's the difference between Graham-Denning model and Harrison, Ruzzo, Ullman (HRU) model",1
+Would it be adequate to have code that tests for a known watermark (or set of watermarks)?,1
+My suggestion remains snooping around to see if you can find one or two of those elements.,1
+"No, it doesn't come with windows update. If you don't know why it's there, remove it ASAP.",1
+"i am sorry, i did not know that. thank you for the information. should i edit my question?",1
+"@Rook, When answering ""Have i seen this IP before?"", how do you deal with false positives?",1
+"but if the email is a web-based service, then the IP will be of the service not the device",1
+So there is no way for whoever is accepting a OTP to tell device the OTP was generated on?,1
+"thanks for the comments, I'll ask the developer of WordFence, how the IP's are determined.",1
+"Hi @gx1, welcome to the site! Just to double check - you want the actual files themselves?",1
+"@vidarlo, thank you. You have talked me out of it. It was still a good suggestion however.",1
+CAS is not unique to the SSO space. It is also used in .NET known as Code Access Security.,1
+"@DeerHunter The original question was actually relating to ""Is this camera live"" for me ;)",1
+"What is your threat model? Obviously when using Firefox, the profile will be accessible...",1
+"@Peteris Which, coincidentally, happens to be something very desirable to malware writers.",1
+I am not using OpenPGP keys and formats. How to use it in comparison with CMS Signed Data?,1
+@Mego But you still can insert text at the beginning AND you know the first 16 characters.,1
+If you contact authorities really put it on them or your case will not really go anywhere.,1
+The questions came up when I was going through one of the checklists in physical security.,1
+"@IMB, yes, that's correct.  Thanks for boiling this down to a simple, clear rule of thumb!",1
+"So you don't want to control the unrooted Android device, you want to ""control"" the shell?",1
+Are you running Wireshark in Windows? Promiscuous mode does not work very well in Windows.,1
+Those sites are really good for an introduction to hacking. Not sure why it was downvoted.,1
+Lost my custom data files for OWASP ZAP (Forced Browse) - where do I find the data in ZAP?,1
+"@Rook,could you please take a look at this:http://security.stackexchange.com/q/49487/35462",1
+Wouldn't the browsers not be able to use the new tls designations? Would webrtc work here?,1
+I remember reading somewhere about malware created for governments which can target Tails.,1
+Does CREST require professional experience? I'm not seeing evidence of this on their site.,1
+@Tim But then how do you know that that second app that looks a lot like Safari is Safari?,1
+"I suggest asking at Law.SE, since this is as much a legal question as an infosec question.",1
+"Ooh, that actually solves the dilemma I was having with this particular widget. Thank you!",1
+"In addition to schroeder's point, please read http://meta.stackexchange.com/a/19487/154443",1
+"<p>It was the missing owner write permissions of the pkg that is causing the problem.</p>
+",0
+@manuel.rivera [Help yourself.](http://live.samsung-updates.com/index.php?device=GT-I9500),0
+"<p>Yeah, but you'd be better off running ESXi on the hardware and WHS on top of that.</p>
+",0
+Might part of the answer simply be that footnotes look bad when you already have a footer?,0
+"They couldnt find me on whatsapp? So now what to do to confirm how they got ""left"" message",0
+"<p>How to rename a project in the Team Foundation Server 2008? What are khown issues?</p>
+",0
+"Are you able to press your home keys and stuff? I mean the bottom panel keys, all of them.",0
+"<p>Issue the following command:</p>
+
+<p><code>sudo apt-get purge skypeforlinux</code></p>
+",0
+"@Bobson it was during my office hours. My door was open, but there were no other students.",0
+"<p>I have never purposely done anything to get a badge, other than post good answers.</p>
+",0
+"<p>I associated my account, but I'm still at 1.  Why didn't I get a reputation bonus?</p>
+",0
+"<p>The down arrow.</p>
+
+<p>Also, I think you meant Tab instead of Shift in your post.</p>
+",0
+"<p>The definition given by mit is perfectly correct. I don't see any problem with it.</p>
+",0
+"... I am ineligible for any NSF grants, but I was once supported by the AFOSR (Air Force!)",0
+"On the problem it looks like it is not your phone, so you dont have access to it.. @esQmo_",0
+"<p>f does interpolate f in $ -3, -2, -1, 0, 1, 2, 3 $ and his degree is lower than 6.</p>
+",0
+"<p><img src=""https://i.stack.imgur.com/qIBtB.jpg"" alt=""enter image description here""></p>
+",0
+"That very much depends on the time allocation policy, which varies widely among lecturers.",0
+"<p>Turning a Q&amp;A engine into an A engine...</p>
+
+<p>I don't think this has future</p>
+",0
+Are you asking about starting an ftp client or server? on the phone or on a remote system?,0
+What is the field you are referring to? Such behavior by the professor is indeed shocking.,0
+"<p>Not sure about a name, but real computers aren't based on Turing machines at all. </p>
+",0
+"<p>Hint:  $f(z)=zf(z)+z^2f(z)+z$, which you can prove using the Fibonacci recurrence.</p>
+",0
+"@EpiGrad Yup, I read it on the Wikipedia page: ""[...] in all the non-medical fields [...]""",0
+"@Sukan, Try: Search for the available networks then select your home network (i.e Airtel )",0
+"<p>Can I download <strong>Ubuntu Touch</strong> from any site or do I have to buy it?</p>
+",0
+"<p>How to emit sound using built-in speaker from a command line in Windows and Linux?</p>
+",0
+"<p>Change the owner</p>
+
+<blockquote>
+  <p>chown root:wheel policy_file</p>
+</blockquote>
+",0
+"Thanks, i'll do that if nothing else works out. Still looking for some other solution tho.",0
++1 for disability awareness.  Great suggestion to consult students with disability office.,0
+@PeteL.Clark Imperial College London is one of the top institutions to offer PhD programs.,0
+"Still, if I may, uninstall CMS. It does little more than bother you with pop-ups and spam.",0
+"Admit it, you just want to verify http://www.phdcomics.com/comics/archive.php?comicid=1047",0
+"I mean to say providers like Verizon, AT&T, sprint etc...they govern all these behavior...",0
+"<p>Download a very large stream video or large file, that is good test for bandwidth.</p>
+",0
+"@aparente001 my university uses Moodle, which is useful for this (and a few other things).",0
+I did that before but all in vain. Whenever I click that uninstall button it soft reboots.,0
+@benjaminS You have to wait two days before accepting your own answer. Just have patience!,0
+"<p>What is the difference between $\models$ and $\Rightarrow$ in propositional logic?</p>
+",0
+"related, but not exactly the same question; http://academia.stackexchange.com/q/13717/7921",0
+You should manually move files to the sd card and when you have space download your files.,0
+"<p>There's now the ""Late Answers"" review queue that fulfills the ""more eyes"" request.</p>
+",0
+"I already use WAMP for a webserver on this PC, any chance something like that can be used?",0
+The number of people who have taken PhDs both in the US and in the UK might be very small.,0
+I'd expect this plan to have significantly _less_ chance of working in Europe than the US.,0
+Thanks for your reply but i need answer for the first one please help what will be problem,0
+"<p>Why can't the speed of light be faster then approx 300 000 km/s? What prevents it?</p>
+",0
+"If you can get hold of the font file, check with our [fonts tag-wiki](/tags/fonts/info) :)",0
+"Thanks for the idea, but yeah, the AT&T IM app does not show up in that applications list.",0
+https://researchgate.net/publication/273029606 says that the first is from Google Scholar.,0

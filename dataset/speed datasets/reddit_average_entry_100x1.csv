@@ -1,0 +1,1036 @@
+A,C
+"I've been working on a program to help during a pen test. It is fairly heavy on the enumeration side, but it will do other things like reporting what commands it ran, setting up a pen testing environment, check lists to go through, saving your efforts into a 'session', running many tools within the program in a wizard like interface, etc. I went a head and released it on git hub last night if anyone is interested.
+
+&#x200B;
+
+[https://github.com/shanefarris/RTFM](https://github.com/shanefarris/RTFM)
+
+&#x200B;
+
+I will be documenting it better later as I have time. But in general it has saved me a lot of time taking care of a lot of the repetitive tasks you would normally run. This is similar to Sparta, but encompasses a lot more programs, and creates a report.
+
+&#x200B;
+
+I'll be adding a plugin system and a few other things, but let me know if you have any thoughts.
+
+[How to video](https://www.youtube.com/watch?v=jz-FSPdoL-w)",1
+"Hello Redditors!
+
+&#x200B;
+
+When you want to write Linux shellcode (assuming Intel x86, 32bit for this post) you often need to know what system calls and system call numbers you have to use. For example, if you want to exit a program with return code 42 you need the system call number for exit, which is 1:
+
+`mov eax, 1   ; setting the system call number for exit()`
+
+`mov ebx, 42  : exit code`
+
+`int 0x80     ; interrupt to execute the system call`
+
+Normally, I would google ""system calls linux 32bit exit"" and get one or two pages that are kind of useful. But who wants to google all the time? That's why I built a little script that allows you to query system call names and get the system call number as a result. You can find it here along with the documentation: [https://github.com/martinclauss/syscall\_number](https://github.com/martinclauss/syscall_number)
+
+&#x200B;
+
+\#syscalls #linux #ctf #shellcode #binary",1
+"Our team is starting a [cyber security podcast](https://cisoshare.com/podcast-prelaunch/) — the theme that we're going for is exploring and talking about the truth in topics that most people just don't talk about.
+
+In case you don't want to read the whole landing page: Mike (our president and CEO) has seen a lot of things in security that he wants to address, good and bad.
+
+The first episode we recorded jumps into a brief history of different trends and things in cyber security that he's seen change over the years he's been in the industry, and then he gives a few tips on how to make the most of that trend.
+
+**We wanted to know:** Are there any topics that people want to hear us talk about? Like: Is GRC dead? Why and when does security matter during innovation? Why do people keep making the same mistakes during board presentations?
+
+(If you have opinions on any of those topics, we'd love to hear about those as well!)",1
+"Hi, I'm 17 years old and I need help starting out with hacking (ethical hacking). My dad's a cyber security expert (a hacker pretty much), and he dedicates most of his time to his job. I've always been interested in that but I never actually tried getting into it because I was too busy with school and other occupations. I ordered this book: https://www.amazon.co.uk/Hacking-Ethical-Hackers-Handbook-Fourth/dp/0071832386 about gray hat hacking fundamentals, but I'm not quite sure if that's really a good starting point. I'd like to start off with the basics, and I have all summer to learn so I don't mind something long, that would even better. To give you an idea of my level, the closest thing I've ever done to hacking or coding is learning the fundamentals of javascript, CSS, and HTML when I was bored so I don't know anything about hacking. Can anyone indicate me a good website or book that'd be a good starting point for me?",1
+"
+On the eligibility application, there is a section that reads as follows:
+
+“and a scanned copy of an identification document, such as Employee i-Card of your current or previous employment, which does not carry any Personally Identifiable Information. EC-Council strongly discourage you from submitting your passport, driver's license, government ID or any other identification document that carries Personally Identifiable Information.”
+
+But there is no list of what EC-Council considers PII, and no example besides an “Employee i-Card”. This stipulation seems to contradict itself, as any reasonable proof of identity will include at least some “Personally Identifiable Information”. I do not want to pay a non-refundable $100 only to be rejected for such a technicality.
+
+What PII does EC-Council consider as disqualifying?
+
+Or more to the real point:
+What are some forms of ID used by self-study applicants and were they accepted or rejected?",1
+"I am curious how others handle mitigating social engineering attacks utilizing gotomeeting and various other screen sharing / potential control giving applications?
+
+We blocked gotomeeting's traffic on the firewall for all computers, then put a remotedesktop app on our DMZ for a version of Chrome with GtM installed so that people who need to do GotoMeeting / Webinar utilize the ""GotoMeeting Chrome"".  That way should anyone ever be offered a gotomeeting link they have to go through a server that has restricted access to the network.
+
+We are getting push back in that launching a separate browser is too tedious.
+
+Which has me here asking how do you guys handle it, and are you some how able to restrict GotoMeeting while allowing GotoWebinar to still flow fine?
+
+I'm not trying to prevent Webinars just remote control of machines.  I don't see anything GPO wise I can set to tell Citrix to not allow sharing, just viewing.
+
+Thank you for your time",1
+"Hello everyone,
+
+I'm a software developer (Rails (Backend), Go, C#) with a large interest in penetration testing and forensics. I've read lots of infosec literature and done a few Challenges (HTB and SecGen VMs mostly), but I'm lacking experience with real pentests. I don't like leaving my current employer, so bug bounties would be a side business for me. 
+
+I'm quite scared of trying to get a bug bounty and going in for the ""kill"" because I've heard quite a few horror stories of pentesters getting sued or arrested when claiming a bug bounty... 
+
+Have any of you had the same experience? How did your first few shots for a bug bounty go - both your epic successes and your blunders? I've had many of the latter and definitely a lot of what felt like the former. And... have any of you ever had a conflict with the law or someone who wanted to get out of paying a bounty? How did it end?
+
+Thanks from a curious beginner! ",1
+"Hi guys, some days ago i found this hashed passwords on a website. What type of hash can be used?  
+
+53633d96d7376ab5b235ec501cd963c6008f826747f7007bded61920dbde830cbce674e3ee737c6e11812871b9a9548a8b9694d6b39bc18d06ef774fa0725ccbac562c8a
+    47ce6d0715dbc1ea1e26b2ff43a3ffcc82014a0c39a51c9938a4d41e25af7bc23bc8270282cb6ac9d72310fa09bc9d1dcfccc8199338494695f1a9a8eb0f560defaa5fa9
+    3787ccf50f9e46ea5f5d5d9d9cd9038c82b733c2369eccc8419c5b6fedc90d3e503a6696c9e8e375dcd4ffe868c29851f4b8612648429a390c57a0c9b1717c69b93b5468
+    35f58d42b11ddeeb5cd28eb1ef2c5f20aff813ef5aa60df555ebf5722867ee542ef4f949d5779ef5b061479468b95467885c4a48168b4dfd8345dd50196d6243afcf162c
+    4fb74b0f59045e22a6d61619a1f892d11c39be9ae473a0a9ef4a66c4b20310ac71a7e1b2d830a5011fa1837c539a15e3c834ce4099a0c6e1edabcb745cd9022e358fea14
+    6edfa22561b8a078d131b36be88fa1dad15b6d3896b143ebf96d02963c5328ee8a2e54a13292f3b49ce14df06f739a042c1012c98c0389b9afeeebd22227705d6b47eb6f
+",1
+"Hey guys,
+
+I'm new on here and signed up after seeing plenty of you asking questions about the value of the OSCP and other certs. 
+
+I've been working with some of the market leading security consultancies and recruiting for penetration testers over the past few years and I'm keen to pass on my advice of how the OSCP adds value.
+
+Whenever anyone asks me if the cert adds value, I say absolutely yes! To the extent that some of the key players in the market don't even look at a CV if the candidate has not passed the OSCP or CRT. 
+
+The reason reputable certifications are so sought after by employers in this space is that they use them as proof of quality when they sell a consultants services into a client. 
+
+The CRT is more credible than the OSCP in the UK but across Europe the OSCP is far more recognized. 
+
+For all of you deliberating on whether it is worth it or not, it absolutely is so go for it!!
+
+Good luck :-)",1
+"Last week, our garage door stopped working.  First, we thought it was the controller(s)--replaced batteries etc, then we thought it was something physical, logic board etc.  We noticed when we got closer (within feet) the door would open.  So, we figured it was some kind of interference.  We made plans to turn off all our circuits etc 'tomorrow'.  Than the night before, I heard a faint noise...  our Verizon Fios backup battery was sounding an alert.  The backup battery needed replacing. We immediately knew...this could be it...so we bypassed the backup battery and tested our controllers with the garage door--and it works again!   Fortunately, we did not get frustrated.  It was not super important to fix it, etc.  It was nice to stumble across the cause .  It definitely demonstrates how something can interfere with another frequency and is a good example or story to share when someone asks for examples of DoS.",1
+"I am a desktop support tech in an office of several hundred people. We had an attempted spear phishing attack today. My boss was so pleased at how I handled it he offered to pay for cyber security training since “I clearly have a passion for it and it will help the company.”
+
+What are some good netsec/infosec bootcamps  or courses you can recommend? 
+
+Thanks in advance!
+
+
+Edit: Thank you all for the replies. I will update this post when I choose a course and let you know what my boss says.
+
+Edit 2: After some careful consideration I think the eLearnSecurity PTS is where I want to start. I can get unlimited lifetime access to info and the labs/black box pentests for $600.
+
+SANS looks like the gold standard but I think that may be quite a bit above the dollar amount he was wanting to pay ($5-6k) I would give my left nut to go to the 401 or 504 though.
+
+I will update again after I hear back from him.
+
+Thanks again everyone!",1
+"Hi, it’s finally that time! My employer is going to pay for my CEH training and exam through a partnership with EC Council. Obviously, failure is not an option.
+
+This package will include access to instructor-led videos, EC Council courseware, iLabs, and the exam voucher of course. Are these good resources? Can you recommend others? When I studied for Security+, I found CompTIA’s resources to be nearly worthless, and used Professor Messer and Darril Gibson’s courses instead. I was wondering if it was a similar situation here.
+
+As a background, I have Security+, two years of experience in security, a year experience in networking, about a year of basic PC support/helpdesk support, years of freelance electronic repair, about a year of on/off experimentation and self-taught linux shell/windows cmd and VM experimentation, and a M.S. Cybersecurity (which was way too conceptual for my liking). 
+
+I greatly appreciate any help.",1
+"I googled my own email (to see what showed up about me) and the second or third result was my email (username) and password for GameStop in plain text (the site description mentioned GameStop specifically). Like it was right there for anyone to see. I could also see two more email accts and their passwords. The website itself requires login so I couldn't get further details at the time.
+
+What can i do? This is disturbing because that's my password for a bunch of things (thankfully not my bank accounts but my Amazon acct for example - I have changed it and everything I can remember). I have placed an IC3.gov complaint in.
+
+I did a search for one of the other emails this morning and did find a site where I could see 551 usernames/passwords without any need for a username/password to the site.
+
+For obvious reasons, I am not sharing the sites but this is super disturbing and any advice you could give me would be huge.",1
+"Just like everyone's advice. It was a difficult test. I studied for the past 6months, 3hr each day, more on the weekends. I literally had no life for the past 6 months. Memorization is definetely not enough to pass this test, I had to understand the technical concept way further than an inch deep. Most of my test questions however only had a handful of technical question, less than 5 if I recall correctly. The rest are a bunch of English playwords, designed to confuse.
+
+&#x200B;
+
+I did notice that if you kept getting questions that you don't understand, bunch of weird worded questions, or a wall of text of questions and multiple choices, you're in the passing area. Cause, I did get a lot of that type of Qs, starting from question 2.  Lucky for me it stopped at 100.
+
+&#x200B;
+
+If that happens to you. Don't rush, and take your time, you're in the right direction.
+
+&#x200B;
+
+Good luck to everyone studying this test!",1
+"It's so wonderful to see people here looking to break into cybersecurity as a career. Even more wonderful is seeing established professionals giving advice and mentorship to others. It's what I love about this community. 
+
+The individual posts tend to get lost in the shuffle, so people may not get the advice they need- especially given the time zone differences. So, new rule. Every Monday, we'll be opening up a ""Mentorship Monday"" thread, which will be stickied for the duration of that week. It's a free space for asking anything about cybersecurity as a career, from what certs are recommended to advice on handling common issues. 
+
+If you're new to the field, or if you're established and need some advice, post your questions there! If you're an experienced cybersecurity professional, please check it out and share your wisdom. 
+
+All other career-related posts will be removed and referred to the weekly thread.",1
+"Hello reddit once again, I have one stupid question which i've searched everywhere to find answers but I seemed to have come up empty handed. So I thought what better place to come to for any and I mean any question than reddit, anyways enough rambling. My question is where the hell can I find a public realtime dstat for layer 4 traffic? It may be a dumb question and probably is, but me and along with a few other people can't seem to find any at all. We've tried shodan, cyberhub(lol), vedbex, [dstat.us](https://dstat.us), even rummaged through hackforums but the results amount to none. If anyone could be so kind to point me in the right direction it would be extremely appreciated and i'll love you forever. Thank you in advance.   
+
+
+P.S. - I should add I prefer it to be on/for Linux environments(I specifically use Parrot). Just a note, not mandated but i'm too lazy to use a windows VM. Who likes windows anyways, right? ",1
+"I have genuinely been interested in Cyber Security for the past 3 or so years.  Having worked in the technology/security sector, not only to be routinely exposed to the frontier of development for secure IT solutions but clearly a shift in digital transformation and how we (consumers) access and store data and information, I'm looking to finally make a commitment and jump ship to a CISSP role.
+
+With that being said, whilst I have had some exposure, I'd be going into this role fairly fresh.  I don't have any formal technical accreditation or certifications but have always had a passion/personal interest in tech (hardware and software).  Am I crazy to try and decide to shift to a new career path at 35?
+
+Equally I've begun working through some modules/videos via Cybrary but would appreciate any other suggested materials/programs suggested by those who have successfully completed their initial certifications.
+
+&#x200B;",1
+"Here's the original link where I've read about this (in Russian) - http://habrahabr.ru/post/158545/
+
+with multiple people in the comments confirming it works and also reporting their accounts were stolen.
+
+Here's how it works:
+
+1. Sign up for a new Skype account. Use the victim's email. A warning will come up that an account with that email already exists, but you can still proceed with filling out the form and account creation.
+
+2. Log in to the Skype client with your new account.
+
+3. https://login.skype.com/account/password-reset-request - request a password reset using the victim's email.
+
+4. You will get a password reset notification and token in your skype client. Follow the link to pick the victim's account and reset the password.
+
+
+It appears the only way to safeguard yourself for now is to change your main Skype account email to one that's 
+not publicly known.
+
+
+**Update: It appears that this has been fixed as of this morning.**",1
+"After I root a machine in the labs I grab the proof/network-secret files, dump password hashes, and poke a bit for other interesting files. (I usually run locate \*.txt, \*.zip, \*pass\*) Are there other important things to do after rooting the machine? I know access to a few machines such as domain controllers is important to run client-side attacks. But aside from those, are there any major post-exploitation tasks that need to be done after rooting a machine?
+
+&#x200B;
+
+Secondly, does anyone have advice on getting a better understanding of the network? I have been able to find some of the domain controllers but I don't know which machines communicate with them or something else. My lack of SMB knowledge is really kicking me in the butt right now. Could anyone shed some light on how to better understand the structure of the network, which computers are doing what, who's talking to whom, domain controllers, pivot points, etc.",1
+"I am about to start a work-from-home job that requires me to log into a system and speak to clients through the integrated communication portal. It will also require that I communicate with my team from time to time. The rule (apparently) is that I can live where-ever I want as long as it is in the United States. I was told that the IT Security team had developed the portal so that it would not allow logging in from outside of the US.
+
+I'd like to, from time to time, travel and still be able to do my job. If I had to log into the portal for some reason while I'm overseas, would a VPN allow me to do this? Would I be able to make the portal believe that I was in California or Idaho or etc?
+
+A proxy probably wouldn't work because the list of IP addresses are probably well known and blocked. I don't know enough about VPNs to determine if attempting to do this job from outside of the US would work out.
+
+Any help is appreciated. ",1
+"https://discord.gg/2AG6TCm
+
+Come one, come all! We have a thriving community of hundreds of members and the chat is filled with OSCPs, OSCP hopefuls, and those preparing for their lab time/considering taking the course.
+
+Server is NOT recognized or sanctioned by Offensive Security, but we work hard to keep the chat clean of spoilers and only provide nudges to abide by their philosophy. 
+
+Any discussion of exam contents in specific terms, such as box names and specific exploits and ANYTHING of that nature will result in an immediate ban, so don't do it! 
+
+PM me with questions! Thanks, all. Hope this helps.
+
+EDIT: Originally I had mentioned an idea of having a private chat just for those who had passed the OSCP exam and allowing exam discussion to take place there. The channel leadership have subsequently decided against this rule. Though there is a private chat for OSCPs, exam discussion is still not allowed there. ",1
+"Hello, I am struggling to pick a tool, so here I am asking you.
+I think that everyone sooner or later faces the challenge of having to write down procedures/commands/info encountered while learning/experimenting new stuff, and I wonder, what do you use to save these and maybe even have them synchronized across multiple devices?
+I have few options:
+
+* Keepnote, basic, maybe versioned in git/hg repo
+* Mediawiki hosted somewhere (NAS?) 
+* Markdown repo?
+* Asciidoc?
+* Sphinx?
+ 
+I like a lot the interconnected structure of the wiki, but I find it cumbersome to write. What did it work best for you?
+
+EDIT:
+
+Thank you everyone for your answers! It's incredible to see so many different tools and ways to keep your own note/documentation/info, it is actually quite an underestimated problem that for me lead often to do things without documenting them and forgetting them quite fast.
+
+I will have a look at all the stuff you mentioned :)",1
+"I am working in a tech startup in healthcare domain for the past two years as a full stack web developer but I also practice my pen test skills on HackTheBox in my own time because I eventually want to follow that path.
+
+Recently one of our clients reported a security vulnerability in our product which they got to know by an independant security researcher who reported it to them but now have been fixed. But after this incident, there has been a series of discussions to create some basic security guidelines to prevent anthing like this in future and as a proactive measure also. I look at this as an opportunity to kickstart my career in cyber security and wanted to present a practical plan to prevent such incidents.
+
+My approach to this is to lay down some good coding practices like to not use 'eval' or obsolete libraries but what other direction or approach should I be looking at apart from ensuring secure code development?",1
+"Download this: http://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+
+You can install it in virtualbox:
+http://smallbusiness.chron.com/open-vmdk-virtualbox-28847.html
+http://techathlon.com/how-to-run-a-vmdk-file-in-oracle-virtualbox/
+
+Follow these guides:
+https://community.rapid7.com/docs/DOC-1875
+http://infosecisland.com/blogview/22061-Metasploitable-20-Tutorial-Checking-for-Open-Ports-with-Nmap.html
+
+If you want you can also run Nessus on this VM. Just point it to the vm's IP. You can download and install Nessus on a debian based distro or just use the version on Kali. 
+
+You can register a trial license like this:
+https://forums.kali.org/showthread.php?241-Nessus-in-Kali
+
+
+Remember to update nessus.
+
+You can even go so far to run Linux Exploit suggester:
+https://penturalabs.wordpress.com/2013/08/26/linux-exploit-suggester/
+http://www.kitploit.com/2013/08/linux-exploit-suggester-grab-linux.html",1
+"I decided today to make a start on migrating some of my KeePassX .kdb databases to the new format using the official KeePass client on Windows. I have a few concerns with the site security over at KeePass.info though.:
+
+1) For a start the binaries are hosted on SourceForge and in addition to that malarkey they're pulling bundling adware into the installers, they also only download over http.
+
+2) When checking the hash values for the binary on the keepass.info site, the connection is also http. If I request https, I get an invalid certificate that was issued to webserver.ispgateway.de.
+
+If I trust the cert then the SHA1 hash does match my download, but I'm reluctant to install given the eyebrows raised by this, considering how sensitive the info handled by KeePass is.
+
+I will be using KeePassX on other platforms and might be tempted to stick with the same on Windows. Does anyone else share my concerns with this?",1
+"A Call for Participation in a Research Study Still, have a need for participants, so posting again. As an information technology professional, you have unique and practical knowledge concerning the Internet of Things (IoT) systems and devices and the security risks related associated with the implementation of IoT. Your perspectives on this topic can contribute to what we know about IoT and security risks. Interviews will be conducted via a video conference call where you will be asked 10 questions. Not only will your perspectives contribute to the field of Cyber Security, a $50 Amazon Gift Card will be digitally transmitted to you upon completion of your interview. How to Participate If you would like to participate, or have any other questions regarding this study, contact Patrick Butler at : - 201-873-4938 - patrick.butler1@student.ctuonline.edu or patrick.butler@gmail.com - https://www.linkedin.com/in/patrickmbutler/",1
+"I got my degree in Computer science and masters (MS) in Computer and Network Security back in 2008. Since then i have been working in Federal consulting (US) for various clients and sorta become the SME for Microsoft Office 365 for my organization. i am in middle management and my days are spent in strategy sessions, implementation of new tools/process, over seeing a team of analysts and demystifying security and architectural road blocks to C suite executives. Some of the technology i worked on are SIEM, data center ops, NOC/SOC, SharePoint, One Drive, huge migrations on-prem and to cloud and IDS/IPS. **I am at a stage where i want to make a move and wondering if i should do Network+/Security+ or go straight to CISSP.** Although i have 10 years experience only 50% of my role is technical and i want to sharpen my skills before i become a generalist. My end goal is to do Cloud Security in AWS/Azure or Google Cloud . What do i do next? ",1
+"For anyone who is looking for a good resources to practice/learn/test new techniques, [Pentester Lab](https://pentesterlab.com/) is a good place to work from. For the most part, I believe all their exercises are ISOs that you mount to as a VM. Combining this with what you can learn from [Cybrary](https://cybrary.it) and [PluralSight](https://www.pluralsight.com/), you are settings yourself up quite nicely. For the more advanced guys this might not be the BEST option, but for beginners, you will 100% learn a lot of new things.
+
+If you're looking for a different environment to safely test new stuff [DVWA](http://www.dvwa.co.uk) or (Damn Vulnerable Web Application) is another good resource. Even websites like [HackThis](https://www.hackthis.co.uk) and [HackThisSite](https://www.hackthissite.org) can be useful.
+
+There are loads of others out there that I can't remember, but if you know any. Just drop them in here and help the new guys out!",1
+"I've been doing more reading on netsec lately as it's a long term goal to be able to pentest proffessionaly. I've been trying out some war games and reading up on the background for the solutions.
+
+Problem is, I'm struggling sometimes and it's making me feel stupid and discouraged.
+
+It's not that I don't enjoy netsec and the challenge of it, and it's not that I'm not used to studying hard material (was finished with Calculus and had begun to learn C and Python by the time I finished high school). I'm not exactly sure what the reason is. But it's frustrating and I don't want to kill my interest because I get frustrated.
+
+Like coding, there is a lot of background knowledge that people forget is required. You end up in the dark about so much while trying to understand new concepts.
+
+Anyways... Point is, I was wondering if anybody else (in industry, hobbyists, etc.) experienced this when they were getting started.
+",1
+"Hi Community,
+
+I am not enrolled to the PWK, yet. But in the pre- preparation I do some tutorials e.g. this one: https://www.whitelist1.com/2016/11/stack-overflow-8-exploiting-crossfire.html?m=1
+
+I have already done a windows buffer overflow basesed on vulnserver. I understand almost every step of this. But exploiting this crossfire game I have one question which I can't answer myself. I also googled for other tutorials. In the beginning ""exploit script"" the buffer variable containes something like this:
+
+buffer = '\x11(setup sound '
+buffer += 'A' * 4379
+buffer += '\x90\x00#'
+
+ I really don't know were this prefix 
+'\x11(setup sound '
+and suffix 
+'\x90\x00#'
+come from. It is not explained in any tutorial I found so far. It just seemed to be given....
+
+As I don't know were I get this information from, I am not able to reproduce this buffer overflow without any help...
+
+Maybe someone can give an answer on this question.",1
+"I provisionally passed 5/21 received email 5/25 submitted endorsement on 5/26.  I was expecting a more difficult exam from what everyone has said about the exam, was happy to have passed at warp speed.  My strategy was don't over think it, think like a manager and eliminate the known wrong answers.
+
+I have about 10 years experience in the security and IT space, with the last three years running my own company.
+
+**Study Resources Used**
+
+Boson Exam
+
+Sybex official study guide questions
+
+Bootcamp
+
+&#x200B;
+
+**Study Schedule**
+
+Took a bootcamp during the day, did sybex questions at night and read up on the weak spots. Did 2 boson exams on the evening before the exam and 30 boson questions the morning of the exam to get into the mindset.
+
+Arrived and hour early to the exam site, relaxed had a snack and walked into the exam center.
+
+I would say that my work and experience aligns with CISSP and this contributed to the short study time.",1
+"Hello everyone, i just completed my Bachelor's degree in Telecommunications Engineering. Over the course of the 4 years the one subject that completely indulged me was Cryptography and Network Security and the prescribed book written by Behrouz A. Forouzan was  a wonderful read. I plan on doing my masters in 2 years in a cyber security related field. I understand that the field of CS is huge and am not yet completely sure where my interest lies in. 
+I consider myself to know a little bit of C and a little more of C++. Could the people of this community guide me through where i must look to in terms of books, courses for a beginner with little to no knowledge in the field of cyber security. I have explored on reddit and elsewhere only to be very overwhelmed by the vastness of the subject and not being able to find a clear cut first step into starting off with my learning process.
+
+Any help would be much appreciated. Thanks a lot!",1
+"Cisco Systems is looking for skilled security researchers and pentesters to fill several vulnerability assessment positions.  Our Advanced Security Initiatives Group provides in-house deep-dive assessments of Cisco products and offerings, providing guidance for mitigating vulnerabilities and architectural security weaknesses, and researching and developing reference implementations and mitigation solutions.
+
+&#x200B;
+
+We are looking for candidates who are passionate about security and have low-level systems programming experience (formal or informal) in a linux environment, preferably using C/C++.  Linux systems admin experience is also a major plus.
+
+&#x200B;
+
+If interested, please contact me at: [samcleod@cisco.com](mailto:samcleod@cisco.com).  A few things to note:  we are looking to fill these positions in our Austin, TX,  Raleigh, NC, and Knoxville, TN offices.  These positions do require US Citizenship.",1
+"As the title says, I passed this morning!  I’m so relieved that it’s over.  I almost cried as soon as I got the results.
+
+How I prepared:  
+
+Six months of off and on study that included reading the Sybex book (do not recommend, I’d rather watch paint dry), Kelly Handerhan videos and the Boson tests.  
+
+One month ago I started reading the Sybex for several hours every night and drilling with Boson tests.  I went through a boot camp this week with Training Camp (Highly Recommend) and did nothing but study at night.  Training Camp provided a copy of the ISC2 practice questions book too, which was also very helpful. 
+
+If you have the ISC2 practice question book, register it for the online Wiley tests.  It’s much easier to review and mimics a real test environment.  
+
+Huge thank you to all those that came before me, you’re the ones who helped me find the right resources and motivation.  
+
+Now I’m off to take a nap!!",1
+"Hi everyone,
+
+In order to start the ""Penetration Testing Training with Kali Linux"" it says that you need to have a ""Reasonable understanding of Linux"", which I absolutely know nothing about....So my **2 questions** are:  
+
+
+  
+**1-** Should I lean Linux, let's say through the Linux Foundation (they recommand 6hrs per week for 8weeks), or its more than just ""reasonable"" & I might be learning lots of things I will learn through the PWK course?  
+
+
+**2-** It's (Linux foundation class) asking me to ""to have at least one Linux distribution installed""... Should I use Kali Linux or another distro? - Sorry I'm totally new to this.
+
+On their site it says:
+
+The families and representative distributions we are using are: 
+
+* **Red Hat Family Systems** (including CentOS and Fedora)
+* **SUSE Family Systems** (including openSUSE)
+* **Debian Family Systems** (including Ubuntu and Linux Mint).
+
+&#x200B;
+
+&#x200B;
+
+Thanks for your help!",1
+"Hi!
+
+I am a networking/security consultant/teacher. I have just created an introductionary course about nmap on udemy.com. I am looking for people who wants to give this course a try (less than one hour) and give me feedback/review on the course.
+
+So if you are willing to
+1) signup on udemy.com and attend my course for free
+2) complete the course (less than one hour!) 
+3) send me an email containing your opinion (what is good, what is bad? What is missing?....)
+4) Give the course an honest review on udemy.com
+5) All the above within one week (before end of mon 11 april 2016)
+
+If you wanna participate, signup on the form at
+https://nat0.net/nmap-trial-signup/
+
+Note! This is an introductionary course on nmap. If you are an nmap ninja, this course is probably not for you!
+
+I will keep this offer open until I have got a number of attendees, then I will update this post.
+
+Thanks!
+
+Update: I have got enough of signups now. Thanks!",1
+"I took 60 days lab first and my first attempt was 25 point. Only Bof question. In the first exam I try to exploit everything I found and spent my all time in rabbit holes. 
+
+I took 1 month lab extension and exam.  In my second exam I make a list everything I found and I used google more effectively, read every possible exploit and vulnerabilities first and after that I tried to exploit things. Guides helped me a lot and topics in here. I wrote in reddit something like if you are finding yourself writing an exploit from zero, you are probably in a rabbit hole.  After my first exam this made me realise that I am doing wrong.
+
+5 machine local access and 3 rooted. I wrote 28 pages long report. I put screenshots for every steps but didn't explain every steps. Only wrote critical steps. 
+
+Received email that I passed. 
+
+I wish good luck on other people who is trying hard and I hope they will pass exam.
+
+&#x200B;
+
+ 
+
+&#x200B;",1
+"Hi guys,
+
+We need to let go an IT Ops Manager with system-wide access by minimizing the risk of ""disgruntled retaliation"" against the company. I could use some crowd-wisdom here to spot check actions taken so far and advise if I should include anything else.
+
+* Disabled his domain admin account
+* Disabled his regular domain account
+* Changed default domain administrator admininistrator pass
+* Changed default domain enterprise admininistrator pass
+* Reviewed groups: Remote Desktop Users, VPN users, Account Operators, Backup Operators
+* Changed password on all network devices and firewalls
+* Disabled all local VPN accounts (guest, etc.)
+* Removed his account from all other appliances (load balancers, storage, etc.)
+* Changed local admin password on servers
+* Changed ESXi and vCenter passwords and removed his account
+* Blocked outgoing Teamviewer on firewalls
+* Checked scheduled tasks
+
+See anything obvious missing?
+
+Thanks a bunch you lot!
+",1
+"My question originates from following articles: 
+
+http://www.theregister.co.uk/2016/07/14/cloudflare_investigating_mystery_interception_of_site_traffic_across_india/
+
+and 
+
+https://medium.com/@karthikb351/airtel-is-sniffing-and-censoring-cloudflares-traffic-in-india-and-they-don-t-even-know-it-90935f7f6d98#.zduskeffu
+
+I wanted to understand how does ISP intercept web traffic? Do they block DNS request? However, this can be circumvented with using different DNS servers. OR Do they block http get requests? I have no knowledge of traffic interception, however; I feel this is the most plausible method.
+
+My reason for stating the above is because whenever I try to visit a website blocked (or redirected to a block page) by my ISP it is usually a http request. If I add https in the URL the website appears and I have access to it.
+
+For example: http://websitename.com – blocked
+https://websitename.com – full access.
+
+",1
+"I am taking over responsibility of an entire security operation and it is basically just me.  Our infrastructure has great incident detection and dropping capabilities from our firewalls (Palo alto threats) along side all of the data we get from our siem and AV products.  I have spent the last year watching malicious traffic get dropped via firewall or cleaned/quarantined via AV products.  How am I supposed to know when a device was actually breached or actually has something malicious that wasn't completely quarantined or cleaned off?  How am I supposed to detect something that wasn't picked up by the firewall or AV as malicious? Is it really just trust our firewall dropped traffic, and AV cleaned/quarantined traffic?  I guess I am looking for valuable threat hunting advice because right now I am dazed and confused with all of the activity we are already detecting and reacting to.  Looking for advice from the trenches.",1
+"I gave them my password yesterday because my phone isn’t backed up and they would have kept the phone if I didn’t give the code to them. (I need contacts to call people after crossing through border) I’m so so so infuriated. 
+What can I do besides factory reset and changing all my passwords for everything? 
+Edit: Is resetting it the best way to thoroughly disinfect it from potential spyware? Tips would be massively appreciated. I’m not positive which country searched it. There’s just one checkpoint/building. 
+Info: US citizen. They had the phone out of my sight for 5 minutes. Washington State USA to Canada interstate 5 by private car.
+Learned from comments so far: don’t connect phone to computer in case there’s spyware on the phone. Resetting it doesn’t mean they can’t see data that was deleted. (In that case, is there a way to fully wipe the phone before going across a border, or do I need to buy a new phone for every border crossing???)",1
+"Has anyone on here actually purchased one of the deals from the Hacker News website? I'm looking at one of their course bundles right now, and it seems too good to be true based on the content they're offering and the price it's going for. Is the quality of the courses any good? I'm a broke college student, and I'm not interested in spending even $20 on something if someone already knows it's garbage.
+
+In case you're curious, I'm looking at this [course bundle](https://deals.thehackernews.com/sales/pay-what-you-want-the-complete-cyber-security-certification-bundle). The site actually offering the courses is iCollege (never heard of them, still looking for reviews on them).
+
+Update: After some digging, I decided not to bother with this. You can get all of that course material for free on Cybrary, so there's no reason to pay any amount of money for it. (One person who replied to this also pointed out that this is a scam, so there's that.)",1
+"Sat a couple hours ago, and passed at an odd point.
+
+Resources -
+Sybex 8th Ed - annoying, but read through fully once taking notes (2 notebooks worth). Couple reviews of individual sections.
+
+Boson question simulator - good for identifying sections to focus on, far more technical than the real thing.
+
+Sunflower - only resource used last week or so, just went through and jotted notes on things I didn't have down pat.
+
+Handerhan videos - too slow for me, and no autoplay made me bail from this. The Why you will pass was great though. 
+
+
+Exam itself -
+
+Brutal, far more questions on processes and much greater detail on them than I expected. Know your DR/BCP/SDLC steps and meanings pat. Nearly every question was interpretative - 'Best technical option' or 'effective option'. Definetly remember this is about policies and processes first and foremost.
+
+
+Backround of networking to helpdesk to sysadmin over roughly a decade in SMB environment.",1
+"Hello guys,
+
+I am currently studying for CEH exam and I am in a bit of dilemma:
+
+First of all the reason I am taking CEH is not only professional goals but I also want to learn cybersecurity domain in general. I currently don't work in IT security however I do work with Information Systems and Information Technologies to various extent. So my goal is not only to pass the CEH but to actually gain knowledge and understanding. 
+
+I recently started AIO 3rd Ed. and I must say it is a great book for studying but when compared to modules presented by EC-Council it feels like AIO doesn't go as much in depth and just outlines useful information for exam. I also like EC council labs. 
+
+I am curious would you recommended going through all the text in EC Council material to gain better understanding of cyber security and ethical hacking, finishing all the labs and then move onto AIO, or is it ultimately a waste of time?",1
+"Hi all
+
+I'm starting my OSCP labs soon, and I would like some opinions on whether VMware or Virtualbox is the better option for the OSCP Kali image.  I have used Kali on Virtualbox quite a bit in the past and it has for the most part been functional.  There are several times that I have had trouble the VM randomly being corrupted and required multiple snapshot rollbacks or in most cases it was just easier to blow the VM away and start over.  I talked to a few other people and they said that they have had much better luck running Kali in VMware.  Is this true?  Is VMWare Workstation Pro more stable that Kali?  It definitely seems to have a better feature set, but I'm not seeing anything so far that would warrant the $249.00 over Kali.  I am not paying for it, so the money is not a problem.  I was just curious if there was a preference within the OSCP student community as to one or the other.
+
+Any info would be greatly appreciated.  Thanks.",1
+"I’ve noticed recently there are soooo many passes. Which is great! As a CISSP’er myself I love seeing the security world thrive, especially with an obscurely written and TOUGH exam like this. One where I’d rather nail my nuts to a wooden post than to ever study for this thing again. 
+
+Having said that though, I’m curious why there aren’t people posting failures on here? Or is everyone just passing? 
+
+My fear is people are afraid to post a failure. Don’t ever be ashamed of a failure. When I was studying, I sometimes learned more from people posting their failures than I did from people posting their passes. 
+
+So don’t be ashamed, post them, tell people what worked, what didn’t work, learn from your failures and find motivation from it! A CISSP is a CISSP whether you pass the first time (awesome) or your 5th time (awesome)! Seriously, people take this thing 3,4,5,6 times before passing. If that ain’t balls, I don’t know what is!!!",1
+"Hi guys,
+I'm just wondering how you guys keep your skills sharp, especially as you get families and as you get older. The technology changes very rapidly and the threats are constantly changing.
+While some security professionals operate from 9-5, the threats are coming from people who easily spend 12+ hours a day in front of keyboard on top the 24x7 scripts they run.
+Naturally, the hard technical types are young 20 - 30ish professionals who are without family. The work is never done. While there are people who are truly passionate about the profession and can dedicate endless hours upon hours to the cause, I want to spend more time with my family now.
+I suppose the fundamentals will never change. Those, will never be relinquished after years of hard work, but other skills if I do not practice, will fade with time. Maybe we all have our own choices to make, and maybe at this point, I've chosen my family over keeping my technical edge.",1
+"Hello All,
+
+I am currently studying for OSCP and aiming to buy my lab time within the next month or two depending on funds, In the meantime I have been doing various VulnHubs, HTB etc etc and I have amassed quite a lot of resources inside my dropbox which is updated daily relating to various topics which are covered in the OSCP which I thought would be fairly useful to everyone else.
+
+~~If you would like access PM me your email address & I will share with you :)~~
+
+You can view a preview screenshot here > [https://i.imgur.com/LQc5euV.png](https://i.imgur.com/LQc5euV.png)
+
+PS: Please excuse my weird file names such as 'AMAZING AMAZING OSCP TOOL', It's just the way I name files for myself...
+
+Edit: /u/Thisismy15thusername Requested a Read Only Link, Here we go >> [https://www.dropbox.com/sh/ba0t59c5fnccgms/AACvUbUSflWB1\_AAgj8okEUra?dl=0](https://www.dropbox.com/sh/ba0t59c5fnccgms/AACvUbUSflWB1_AAgj8okEUra?dl=0)
+
+Thanks!",1
+"just had a female calling 
+
+her: hi im from xyz system and my laptop is down,  im with the i. t right now and they are fixing my system but i need the email and name of someone from your company
+
+me: sorry maam i couldn't  just give you our employees info.
+
+her: you know 'dear',  im trying to actually complete a video conference you see. 
+
+me: well you could always send an email to the service desk and tell us who the person is and we will inform him accordingly. 
+
+her: look 'dear' ,  i really need the email and name of this person from your outlook adressbook and its urgent and it isnt possible for me to send email when laptop is down. 
+
+me: you can always send it via mobile phone.  sorry i couldnt give out any of our employees info. 
+
+so..  what are the importance of getting the email and name of someone from the attackers perspective
+
+i may be a bit paranoid but there's  something about the caller that  doesn't  seem right.  ",1
+"Hello, recently I was planning to go to college but decided against it because I basically have nothing going for me. Family makes too much money, bad grade, white, male. In short I can't get any scholarships, so its going to cost a lot. Then theres the problem with me being years behind in math, I am not sure I will be able to pass college which is just more risk on my end, its like betting $12k if you can pass a semester or not. One of my buddies told me about the Air force having a cyber division and I thought maybe that would be a way I could get myself into this field without going $60k in debt. But then I thought, there has to be a catch to this. If you can save the price of a new SUV by going to the military, why wouldn't everyone do it? It would be common sense. You would actually be making money instead of losing it. 
+
+&#x200B;
+
+Anyone else had experience doing this? What are some stories you can share?  ",1
+"Your honorable honors, I submit the following evidence that /u/gusbus26  submitted an article on /r/politics at 11:23 PM EST. He then posted said article on a high school political group page at approximately 11:33 PM EST on the website Facebook. Then 5 minutes after his post on Facebook he submitted a comment on his post that read ""btw, I know you're almost all redditors so upvote my link to this article"".
+
+It is my opinion that /u/gusbus26 has violated the Reddit rule that states ""Don't ask for votes or engage in vote manipulation."" I kindly ask that the defendant be tagged as a ""Vote Manipulator"" and that he's submission be downvoted by the people of Reddit.
+
+Evidence 1: http://i.imgur.com/dKLIkqp.jpg
+
+Evidence 2: http://i.imgur.com/tcG24ub.jpg
+
+Evidence 3: http://i.imgur.com/KCtt5Zd.jpg 
+
+Judge: /u/diggi91
+
+Prosecution: /u/Nestorow
+
+Defense: /u/averagegamer7
+
+Jury: /u/Sanpd ; /u/Woodxs ; /u/mooneydriver ; /u/nicksatdown",0
+"So there is a webseries that is relocating to my area looking for an editor, among other crew members. It pays; not *a lot* based on how much time it will take to do it, but it' more than a months rent for me. I am trying to do freelance as my real job, but I'm not there yet, and the more work I can get the better. 
+
+My dilemma is, it's terrible. It's badly written, badly directed, and poorly shot. The acting is...not great, but even if it was amazing it wouldn't save this. Normally I wouldn't consider, but I really need the money, and *maybe* I can put something together that's good enough to put on a demo. Part of me thinks, it's maybe two weeks of work, and I can be ahead in my rent and afford food that isn't rice. And I can possibly make good connections. The other part of me thinks, do I want to spend two weeks of my time on something I can't be proud of?
+
+Editors, you understand the time and effort a project takes. Is it worth it?",0
+"Hello friends! I apologize for the huge delay, but I have been busy recently. Also i would like to warn you that future compilations may be delayed as well since classes will be starting up again for me. But without further delay, I present this past week's top tracks as voted by the community. All tracks are 320 kbps and are properly tagged. Thanks for your patience. Enjoy!  
+  
+   
+Track List:  
+Popeska - Karmameter  
+Krewella - Alive (Jakob Liedholm Remix)  
+Shinedown - Unity (Matisse &amp; Sadko Remix)  
+Charlie Darker - Atlantic (Original Mix)  
+Loreen - My Heart Is Refusing Me (Benny Benassi Extended Mix)  
+Benny Benassi - Satisfaction (Dada Life Remix)  
+Modulation - Groovy Movie (Original Mix)  
+Organ Donors - 212  
+Martin Solveig vs Nari &amp; Milani - Hello Atom (Revolvr Bootleg)  
+Bingo Players - Don't Blame The Party (Mode) [Firebeatz Remix]  
+  
+Download Links: [Zippyshare](http://www38.zippyshare.com/v/59971624/file.html
+)",0
+"I posted this over at [r/Korean](http://www.reddit.com/r/korean) and [r/LearnJapanese](http://www.reddit.com/r/learnjapanese) and someone suggested I should post it here too.
+
+I made a video describing the method I use to memorize Korean vocabulary, but it can be applied to any language. I've used this method for a long time, for several different languages, and it's worked great. With a few sheets of paper and 30-45 minutes, you can learn at least 50 new vocabulary words per day. Once you get used to the system, it's expandable safely up to 100 (but don't try that much unless you need to).
+
+Here's the **[link to the video](http://www.youtube.com/watch?v=n5A71i4EZ_w)**.
+
+In the video I use a separate piece of paper for each one, but normally I'd just use both sides of the same paper to save money since I did this a lot.
+
+Everyone learns languages differently, but I hope this can be helpful to many of you~
+
+Good luck in your studies.",0
+"Hi all!
+
+I subscribe to maybe 10 or 15 bushcraft related channels on YouTube already but I'd love to hear some recommendations for others.
+
+Found any worth subscribing to? Any I should avoid? Please share your findings :-)
+
+My recommendations (in no particular order):
+
+* [Savage Bushcraft](http://www.youtube.com/user/crazysaint222)
+* [Bumbling Bushcraft](http://www.youtube.com/user/BumblingBushcraft)
+* [Bushcraft Bartons](http://www.youtube.com/user/bushcraftbartons)
+* [bushcraftgonewild](http://www.youtube.com/user/bushcraftgonewild)
+* [bushcraftmyway](http://www.youtube.com/user/bushcraftmyway)
+* [BushcraftOnFire](http://www.youtube.com/user/BushcraftOnFire)
+* [IntenseAngler](http://www.youtube.com/user/intenseangler)
+* [Jester Bushcraft](http://www.youtube.com/user/JesterBushcraft)
+* [Native Survival](http://www.youtube.com/user/Nativesurvival)
+* [OutdoorEnthusiast](http://www.youtube.com/user/OutdoorEnthusiast101)
+
+",0
+"So last weekend I got some LSD that was pretty weak. Two tabs gave me just above threshold effects, and I only have 2 tabs left. However I do have a nootropic stack with me which I am thinking of combining it with. This stack is ready mixed and consists of equal portions of the following (I already know the stack is not ideal in terms of the dosage of each of them being equal)
+
+
+1.Piracetam
+
+
+2.Aniracetam 
+
+
+3.L-Tyrosine 
+
+
+4.Sulbutiamine  
+
+
+5.L-phenylalanine 
+
+
+6.Choline Bitartrate 
+
+
+7.Alpha GPC Alpha 
+
+
+8.DMAE
+
+
+9.GABA 
+
+
+10.L-Leucine
+
+So I have a few questions about this combination. 
+
+Firstly is their any danger in combining the LSD with this stack?
+
+
+Secondly any interactions? I am aware that Piracetam and Aniracetam will make it stronger (I'm counting on it) but how will the others affect it.
+
+
+Thirdly, If the answers to the above are positive, How much should I take before taking the Acid?
+
+Thanks ",0
+"I am personally excited about having a heavily moderated subreddit as part of the defaults (I'm not sure but /r/books might qualify here as well) so that new users, and even users that don't have accounts, will see that some reddits have rules.
+
+The other interesting thing, to me, about having /r/earthporn as a default is that it links very prominently to other subs in the SFW porn network giving a lot of subs visibility. I think that I went to reddit.com and just looked at the default front page for a few months before I even started to notice there were subreddits. The big reason I made an account was so I could subscribe to smaller subs.
+
+Finally, I know there are some reservations about the ""porn"" part of the /r/Earthporn sub name but I'm mostly interested in how new users will be impacted by a sub that they can obviously not post just anything to (whereas subs like /r/pics, /r/funny and /r/wtf obviously don't have many rules).",0
+"Hey everyone,
+
+As some of you know, Arabic 101 was already being offered as a class, but the teacher had to step down. However, I thought it was a really cool opportunity for you guys to learn such an interesting language. So, I decided to step up and teach the class, with [thegirlwhocriedwolf](http://www.reddit.com/user/thegirlwhocriedwolf) helping me out.  
+  
+  
+Schedule: Monday, Wednesday, Friday  
+Starts: Wednesday, September 1st.  
+Length: TBA  
+Prerequisites: Enthusiasm!  
+  
+
+About Arabic: Anyone can learn this language. It's becoming increasingly useful to know this language since Arab nations are beginning to play a stronger role in today's world. Also, Arabic is the official language of the largest religion in the world, Islam.
+  
+
+For those of you who are interested:  
+[/r/arabic101](http://reddit.com/r/arabic101)  
+[University of Reddit Class](http://www.reddit.com/r/UniversityofReddit/comments/d7fy3/class_arabic_101/)",0
+"When you're reheating leftovers such as fried foods, breads, pizza, or anything else that has the tendency to become soggy or chewy, use the broiler in your oven. This technique helps retain original flavor and moisture. 
+
+Turn on your broiler. The level (low, med, high) will depend on a few factors: type and size of food, how quickly you want to eat, and current temperature of the food.
+
+Cover a cookie sheet with aluminum foil and lay out your spread. 
+
+Determine the best rung for the rack by considering these factors: shape and size of your food and how close you want it to the heating elements. Placing food close under the heating elements will offer up excellent crispy results. Great for fries, wings, pizza, and the like. 
+
+Leave your oven door slightly ajar or the intense heat of the broiler will cause your food to burn before you can say, ""oh shit!""
+
+Check often and give the food a chance to cool slightly. Plate it up and enjoy!
+",0
+"I'll be running these contests when I can, so look for the same title in the future!
+
+There's nothing to do out here, so someone else should have a good time at my expense.
+
+Take 4: In light of the Air Force guy doing an IAMA about working with nukes and being a complete idiot with sensitive and classified information, I want your best ""I really shouldn't have said that"" story! The comment with the most upvotes wins!
+
+Rules: US only. Your account must be at least 1 month old. You must not have received from another offer in the past week. One entry per person.
+
+Prize: $20 to your choice of the big three. Winner will be chosen at least 6 hours from now but up to 24 hours or more, depending on when I have internet access. Winner will be posted as an edit to this post and notified by PM.
+
+Have at it!
+
+**EDIT: And the winner is justaboy!  Thanks to all for playing and look out for similar contests in the future!**",0
+"So basically i've had acne since high school (i'm now in college). It has never been horrible but i've always been a little self conscious of it. It's always been primarily white heads and red bumps with pus inside on my face, mainly my chin. Lately i've decided to change up my diet and see if it has any effect. I'm greatly reducing high GI foods and dairy. 
+
+My issue is that I really don't want to cut out dairy since i'm trying to gain weight and milk and protein are super useful. I've always drank milk but in the last year i've at least tripled my milk drinking. After increasing milk ingestion, though, my acne did not really get worse, it pretty much stayed the same. I would think that if dairy were a primary cause, increased milk intake would make me break out much worse. My question is:
+
+**If my acne did not get worse after at least tripling my milk intake, can I rule out dairy as a primary cause for my acne?**",0
+"There are a few open positions at Discovery Place (uptown), but one in particular would be working in a physics/engineering lab making devices and experimental setups to demonstrate stuff like aerodynamics, robotics, chemistry, etc. and then talking to people about them. Also teaching 45 minute classes on occasion (most of which are already written). People who worked in this position in the past were mostly younger college grads (last one just left to get her PhD). If you're good with people and know anything about 3D printing, Raspberry Pi, hobby level robotics, or other DIY stuff you should look into this because I like the idea of working with more redditors. 
+
+Uplink: http://www.discoveryplace.org/about/career/167/Program-Specialist-Physics-Full-Time
+
+PS: I am NOT the hiring manager for this job, it's just in my department. Don't tell HR that you read about this in Reddit as they will probably just get confused.",0
+"I am having difficulty with sticking to my flexibility routine (Starting stretching).
+
+I am massively inflexible. I just did a basic sit and reach with a ruler, and I could just touch the ruler to the floor. I have bad lats and pec flexibility as well, making it impossible to raise my arms over head for handstands and I cannot even get close to a squat.
+So I need to work on my flexibility before I can really throw myself into all things bodyweight.
+
+So I am trying to set flexibility goals that adhere to the S.M.A.R.T. model. The problems I am having are with the measurable and time and resource constrained parts. I get really discouraged because I feel I am making no progress so I end up being able to break my will.
+
+So my question is how do I make flexibility work measurable? And what are reasonable times to get them done?
+Also are there anything I can be doing in the mean time to replace squats and handstand work?",0
+"Before tourism came to Boracay, the Ati (Negritos) have long been living in the island. The National Commission on Indigenous Peoples (NCIP) and anthropological studies have supported claims that the Ati were the earliest settlers on the island but were displaced and driven away, especially starting in the 1970s when tourists and investors started to descend on the island.
+
+For the Ati tribe, the killing of Dexter Condez was a clear and shameful act of intimidation and violence against them. They are strongly condemning this brutal killing. They are urging President Benigno Aquino III to call for an immediate and thorough investigation to identify the perpetrator and masterminds.
+
+**How can you help?** It's simple, just [sign the petition](http://www.avaaz.org/en/petition/Justice_for_Slain_Indigenous_Youth_Leader_Justice_for_Dexter_Condez_End_Impunity_Now/?fJoVHab&amp;pv=8) directed at President Aquino. Thanks!",0
+"We all love Harrow here, me included. We are all fascinated with how dangerous he is, especially after his kill count revelation in the last show. However, unlike other characters, including Lucky, Capone, Jimmy, and especially Owen (who everyone seems to be convinced would actually lose to Richard in a fight) who were and are depicted to be capable of physicality, Richard is only shown as being violent from afar or behind the protection of a gun. Do we have any evidence that Richard is the dangerous man that the show and we continue making him out to be? Because as much as I love him I can't help but feel that if one of the other characters were to knock a gun out of his hand he would be absolutely screwed. He's a slim guy, he only has one eye, and he has never displayed any evidence of the speed or physicality necessary for fighting. Any thoughts? Does Harrow's danger extend beyond the barrel of his gun? ",0
+"So for background, I'm a female solider with the US Army. 
+
+Today I was looking up the candidates running in the Afghan election this coming April. I was just looking through their wiki articles trying to get a feel for who each of them are. 
+
+So I commented to my supervisor about Fawzia Koofi, a woman running for president of Afghanistan. [She's pretty much completely awesome by the way](http://en.wikipedia.org/wiki/Fawzia_Koofi). 
+
+His response was to say that she is just posturing, and that there's never even been a woman president of America. To which I replied ""Yeah, but America is pretty backwards in that, many developed countries have had women leaders. The prime minister of Germany is a lesbian."" (I was wrong, though it was Iceland. But the point was the same.)
+
+His response just flabbergasted me, I was without words. He just said ""Well then she isn't really a woman.""
+
+Every time I think things are getting better...",0
+"I have been following DayZ for many months..enjoying the screenshots, youtube vids, forum banter and fantasizing about it. This is the game I have dream of for about the last ~15 years or so.
+
+I have yet to purchase it due to a myriad of factors but will do so the minute the Stand Alone version is available.
+
+I was just curious how many other DayZ lurkers are out there like myself who have yet to play it and are awating the SA to finally jump in.
+
+**Update**: Glad to see I am not the only one ;). I will add that seeing Rocket's posts (reddit/forums/blog/twitter) take me back to the days when I used to be so excited to see John Carmack's (and other id software employees) .plan updates to get smidgens of news regarding their latest games. 
+
+This game is bringing me back into PC gaming. I had pretty much quit all together 4-5 years ago but will now be jumping back into it thanks to Rocket. Thank you and keep up the great work!",0
+"When we first started modding in March, we had an abandoned community with 2000 subscribers. In the last months we've been organizing weekly threads, providing content, fighting off shills, defining community rule, and making sure that the quality content from the community got through the curmudgeonly spam filter. We've been rewarded for our efforts with wonderful content that continues to help and inspire us and a community with close to 7000 subscribers.
+
+To make sure the community continues to grow and the quality of content is kept, we've enlisted the help of some valuable contributors to /r/declutter:
+
+/u/happyeggeater and /u/debianmike
+
+Please join us in welcoming the new mods! It may take a little time for the new mods to learn the ropes and for us all to get in sync, so we appreciate your patience and continued goodwill in this amazing and unique little corner of reddit!
+
+Sincerely,
+zencanadian &amp; parle",0
+"Well, I really love this game and it does a lot of things well. One major issue I find though, it the minimap. I really wish instead of just dots, you could see who each dot represents. Another thing is since we can't move our screen independently of our characters, I often find myself seeing a bunch of dots jumping around so I dive in, only to find my two teammates are at about 3 hp, or are dead right as I arrive and find myself in a 1v3. Not knowing how the game is made, I can't really determine if making it so the dots were instead mini naught icons would be difficult. But having a bar on the side with teammate health bars would be massively helpful, or anything really indicating your teammates status would be great. I guess the game just feel too blind at points.
+
+Just throwing the idea out there to see if anyone agrees. I think it would be a welcome addiction an encourage more people to pay attention to the minimap.",0
+"I follow people who's tweets I'd like to read, so I try to read them.
+
+Because I follow just 100 accounts, I can read everything that's on my timeline if I check every couple of hours. There's lots of links posted too, so reading takes more time than just scrolling through my timeline.
+
+Now, many people follow several hundreds of accounts, including news accounts tweeting once every couple of minutes. How do they use Twitter? Scroll through their timeline extremely fast? Only read what's posted just now? Wouldn't that be pointless, since if someone tweets interesting stuff at a time when you can't check Twitter, you'll miss that content.
+
+tl;dr: People post cool stuff even when you're not checking Twitter. I can't stand missing these updates.
+
+Edit: what makes it difficult is that I'm in Europe, but many accounts I follow are from America, so I'll miss a lot of that if I don't read tweets posted while I was asleep.",0
+"It's strange.  Every day I see something that I've known for years because of linguistics, but that everyday people seem to be completely unaware of.  The pin/pen merger was on there today.  I think I also saw something about Deaf babies learning language at the same rate as hearing kids (*ahem*, DUH?).  Otherwise it's something about German having been a common language in the USA years ago or y'all and you guys, etc, etc, etc.  
+
+Frankly, I'm just really surprised by the quantity of ling-related things you find on there on a regular basis (far out-weighting for example Chemistry or Math, or probably even Anthropology for that matter.)
+
+Anyways, I just found it amusing and was interested to hear your thoughts.  Maybe we can get a Karma-Machine going here? haha.
+
+Edit: I'd like to add an addendum that, if it seems to clear that so many people actually (without knowing) love linguistics, how do we get them to know it?!?",0
+"Ok so please help me out here kind atheists of reddit. I see many a critique of people who do not believe the theory of evolution because they say it is just that, a theory. The common rebuttal is often that a theory is still a fact, much like the theory of gravity is a scientific fact. However, I keep finding many credible sources that refer to gravity as ""The Law of Gravity"", not ""The Theory of Gravity."" If that's the case, this is a common arguable fallacy that cannot be used to debate a creationists point. From my understanding, scientists us hypothesis to come up with the idea of how nature works, then by proven tests produce a scientific theory, and finally a nearly indisputable scientific law is established. Therefore this common fallacy of calling a creationist ignorant for not believing in evolution but believing in gravity really bothers me. 
+
+Am I missing something about scientific law vs theory?
+
+
+
+",0
+"It'd be an app for your phone with a simple ""on/off"" icon for your homescreen.  
+Whenever you had a boner, you would turn it on. When it retreated, switch back to off.  
+Basically, the app would use your phone's GPS to place the location of you and your boner on a world/local map. You'd be able to see how many people in the world currently have boners.  
+You'd also be able to see large clusters of boners in your area and be like ""whoa...I better get down there. Something's going on that's giving everyone a boner"".  
+Facebook/Twitter integration would be a must.  
+You could track friends' boners so you could shoot them a text like ""congrats on the boner"" and collect stats for yourself and others, e.g. boner frequency, boner duration, prime boner time.  
+You'd probably also want bluetooth or NFC to alert you of boners within 100ft of you so you know to knock before walking in a room and getting an eyeful of boner.
+",0
+"Hi guys, someone over in /r/scifi let me know you exist when I posted these links.  I'm running a promotion on my first book until 11:59PM PST.  It's definitely available in the US and the UK so far, but as for other territories, I think maybe it hasn't gone live.  They may miss out on this one, sadly.
+
+But, links:
+
+[Here](http://www.amazon.com/Jacks-Hats-First-Many-ebook/dp/B00ASYV6SS/ref=sr_1_2?s=digital-text&amp;ie=UTF8&amp;qid=1356529361&amp;sr=1-2&amp;keywords=jacks+and+hats) is the US link and [here](http://www.amazon.co.uk/Jacks-Hats-First-Many-ebook/dp/B00ASYV6SS/ref=sr_1_2?s=digital-text&amp;ie=UTF8&amp;qid=1356479405&amp;sr=1-2)'s the UK.  The book is called Jacks and Hats, for anyone outside of those territories that wants to search and see if it's up.  For anyone who doesn't mark their time by PST, midnight there is approximately eight in the morning GMT.  Much more useful to me.
+
+Hope you all enjoy it!",0
+"Let's get a thread going on this otherworldly combination!
+
+Artists that combine glitch with post-rock:
+
+[65DaysofStatic](http://www.youtube.com/watch?v=gEs74y7hEFI) - Barrelling riffs complement soaring glitch for a musical masterpiece that is both complete and broken.
+
+[This Will Destroy You](http://www.youtube.com/watch?v=Mp4LddCwakA) - At times minimalist, at times expansive, this emotional and atmospheric post-rock may elicit a depth of mood not regularly felt when listening to music.
+
+[Miaou](http://www.youtube.com/watch?v=i3jF0BCEkS0) - Uplifting guitar-based music featuring melodies spun with glitch. Euphoric.
+
+[Matryoshka](http://www.youtube.com/watch?v=maV1C2azVwU) - This Japanese duo synthesizes dreamy orchestration to soft vocals. This is one of my all time favorite artists. [Here](http://www.youtube.com/watch?v=hGXMNrL1NxU) is another song by them.
+
+I will add more as the day goes on. Please feel free to contribute.",0
+"Any EU redditors surfing r/truetf2? If not i'm sorry for the post. 
+
+**Here is the spreadsheet for s9:** [link](http://ugc.tf2itemtrader.com/stats.htm)
+
+Couple of points: 
+
+ * # Logs only show quantitative features, not qualitative (big plays etc)
+
+ * # Total amount of kills or dmg is pretty meaningless because players have different playtimes or missing logs, also many matches lasts longer than others. So stats like damage per minute or KA/D will be more useful.
+
+ * # The spreadsheet is a work in progress and should be more aesthetically pleasing and user friendly in the future. What’s important now is that the data is all accurate as far as the original data goes.
+
+
+
+Was created by Bulow and made public today. It's inspired (and inferior) to the NA spreadsheet. 
+
+Any feedback is appreciated ;)
+
+-Lazybear
+
+
+edit: Updated the link with the new version
+
+edit: We now use the same stats system as NA. Link is updated above.",0
+"A few months ago, I started the process of getting a medical waiver for my recent (June 2012) herniated lumbar disc and the subsequent surgery needed to fix it.  I have no idea how the injury occurred, except that symptoms presented themselves when training with the ROTC at Ft. Knox.
+
+I was told by my doctors that it was unlikely that I would regain all of my strength/feeling, but it's been 7 months (+ 1 day) since surgery and I've never been in better shape.  Today, my recruiter called to tell me that they approved my waiver and I get to go [back] to MEPS next week.  I never thought I'd be saying this, but I'm actually excited to be going back to MEPS and getting this nightmare behind me.
+
+
+**TL;DR: if you need a waiver, don't let anyone tell you that it absolutely won't happen with the current economy, etc.  And if your recruiter refuses to do the paperwork on something waiverable, try another recruiter.**",0
+"I have a windows based laptop that throughout the day needs to connect to a number of different wireless networks.  The problem is that on many of these networks I need to have a static IP address, and this address is different depending on the network connected to.
+Currently I am going in and changing the IP, gateway, etc... every time I change networks.  While this is not hard to do it can be a pain, especially when sometimes testing network changes can result in bouncing around networks every few minutes.
+
+Does anyone know of a way to tie certain address settings to specific wireless networks in windows xp via SSID or BSSID of the AP?  As an example, I want my machine to have an address of 10.0.18.98 when connected to network xyz, but as soon as I change to network abc have the address change to 192.168.14.143.  Is there somewhere I can put this in the registry, or some connection management program I could use to handle it for me?",0
+"Context: I am a very lucid dreamer. I know every dream I have is, well, a dream. I remember most of them from start to end and when going to sleep I can actually consciously experience the transition between awake and REM.
+
+Well, I also have something I consider a trigger. For example, I will be very tired but not willing to fall asleep or just not able to. The only time I fall asleep is after I hear what I consider my alpha waves turning into beta waves. I can literally hear the frequencies. In a sense that I don't know I am ready to sleep until I hear them. Soon as I hear them I know I can no longer fight staying awake, soon as they trigger it's bed time no matter how hard I fight it. My brain is set on sleepy time and has put the gears in motion. I can slap myself a bit to stay awake, but it'll happen again within minutes.
+
+I am the only person I know that experiences this and am wondering if any one else here has the same.",0
+"I am a physical scientist who uses python as my primary programming language. I have never taken computer science courses, but taught myself by reading things like 'Learning Python' and 'Programming Python' a couple years ago. 
+
+While I can do everything I want to do in Python with my existing knowledge, I'd like to really elevate my coding skill to more of a CS-quality level. I imagine there are many commands in Python that I don't know, or necessarily need to know, but which might help my coding. Furthermore, I'd like to improve the professionalism of my code as I might like to contribute to some open source projects in the future and don't want my contributions to look n00bish. 
+
+Any suggestions for how I might go about this? Are there any good websites perhaps that teach a little bit of obscure python every day that I could subscribe via RSS feed or something? Or is it just something I need ""to do""? 
+
+Thanks in advance!",0
+"Thanks to everyone that replied to my mod post.  It's nice to see that people like coming to discuss topics specific to smoking foods, be it meat, cheese, spices, or other.  
+
+I was really impressed with some of the answers that pointed out that BBQ always requires smoke, but smoking does not always require BBQ.  For that reason, I'm keeping r/smoking it's own sub.  I alos feel like questions about smoking salt or spices could get lost in another sub.  
+
+I took this sub over from its creator who originally intended it to be a tobacco smoking sub.  And i did so because I wanted to have a place to specifically discuss smoking foods.  And I'm glad that I found a bunch of like minded folks who want the same.
+
+I encourage cross posting anything that fits in either sub, and will continue to pimp their sub on the sidebar, and direct people there if they have a BBQ specific question.  But I've decided not to combine the two.",0
+"One thing that puzzles me is Kubo's depiction of Unohana's bankai. He usually takes the trouble to explain, over several chapters, people's bankais and leaves nothing out. 
+
+In this case, however, Minazuki's bankai has nothing except torrents of acid/illusion(?) blood going for it. And then we have Unohana saying [''My entire legacy I leave in your hands''](http://mangafox.me/manga/bleach/v58/c527/10.html) to Kenpachi, and in the background we see her letting go of Minazuki.
+
+The question is this: Is her letting go of her zanpaktou symbolic of her letting go of the title, or does she actually mean ''Here, have Minazuki and wield it and show all the fans the power of its bankai''? 
+
+It's also interesting that Kenny's zanpaktou woke up at that *specific* moment.
+
+Also, maybe only a true Kenpachi is allowed to wield Minazuki, and the the literal transfer is what makes the next person a Kenpachi? 
+
+Your thoughts?",0
+"**EDIT: I profusely apologise to anyone who may have been subjected to inane Irish family chatter. I only just realised my 3DS has a microphone...**
+
+Happy holidays guys, I'm in a really good mood so I have come bearing gifts. It'd be nice to get DW stuff or stuff to complete my National Dex with if you have some to spare, but I really don't mind what I get in return.
+
+Here's what I immediately have to offer:
+
+* Bulbasaur x4
+* Charmander x4
+* Squirtle x3
+* Totodile x4
+* Torchic x12
+* Treecko x3
+* Chimchar x2
+* Piplup x4
+* Turtwig x3
+* Zorua x2
+* Ralts x5
+* Spiritomb x1
+* Cyndaquil x3
+
+I can also breed any starter (except Mudkip) for you, as well as either of the Fossil Pokémon from this generation, and will be only happy to go and catch you a Black-specific non-legendary if you need one. My FC is 2580 6982 1839. Should be here for most of the day (minus an hour or two for Christmas dinner). Hope your day is going well so far.",0
+"Let's imagine that you're talking with a person who has recently had a piqued interest in planted tanks.  This person hasn't had experience with aquariums in the past, but they are willing to learn and invest (let's say they have $400 initially, and $100 a month after, for three months, and can find some good deals on Craigslist for tanks, i.e. $0.75/gallon for tanks).
+
+This person shows initiative by purchasing an API freshwater testing kit, and telling you that they want you to help them build a ""beginner"" tank.
+
+What would your build be, and why?
+
+1. What size tank?
+1. What type of lighting?
+1. What plants?
+1. What starting method?
+1. What type of substrate?
+1. What fertilizers?
+1. What type of filtration?
+1. What types of fish?
+1. Any invertebrates?
+1. What ""style"" tank?
+1. What books would you recommend they read?
+1. What software/web applications would you recommend?
+1. What sites? (for purchasing, for learning and for community)",0
+"Alright first off I understand the simple answer is eat more, but I have other questions.  1 month ago I changed my diet so I was eating 3.5k calories a day(I saw on the stronglifts site a 3.5k diet for guys that wanted to be 180lbs like me). I'm 6'3"" 165lbs and have decently low body fat(six pack without flexing). I keep track of my calories using myfitnesspal and I bought a cheap food scale. A month later and I'm maybe 3lbs heavier.  So here's my questions.
+
+1) What should my macros look like? Right now I hover around 40% carbs, 40% fat, and 20% protein.  I make sure I get over 1g/lb everyday(usually around 180).  
+
+2) Is it too soon to see any gains?  I have read about people gaining 10lbs in a month but I'm not sure if that is normal or not.  3lbs in a month seems pretty tiny though.
+
+3) Should I bump it up to 4k calories?  3.5k seems pretty difficult but I need to gain weight sometime ha. 
+
+I appreciate the help.  ",0
+"This is probably not the right place, but I know a lot of people post about doubt here. I want you to know that you need to keep with it. I've had doubt ever since I came out to my girlfriend two weeks ago. Even with a life's history of trans feelings I thought that being a woman might not be right for me. I could relate to all the stories that other trans women post about their lives, but I just wasn't sure if transition was right for me.
+
+Tonight, I just went out with my friends as a girl and I can say that you need to give it a shot. I got odd looks all night at the bar, but for some reason it didn't matter. I just felt happy being myself with my friends, and trust me, I was the farthest away you could possibly be from being happy about being trans this morning because my girlfriend and I broke up. If you're lucky enough to have friends who will respect you as the gender you want to be, then that is enough.",0
+"Hi!
+
+I'm not sure what to write. I'm basically a shy asian guy looking for a friend to hang out with. 
+I like reading books(SciFi, Fantasy), playing games(COD, HON), and playing sports. (Tennis, running, snowboarding, basketball.)
+
+I've always been a bit of an introvert and I'm looking to break out of my shell a bit and meet some new people. I'm usually pretty good at being social around guys, but girls make me super nervous sometimes. xD
+
+I think i'm decently attractive(??), I don't think i'm hideous or anything at least. I work out and try to keep a clean appearance. A few girls have called me cute over the years. (Although I can never tell if they're just being nice or not.) Anyways, looks aren't a big deal for me, I'm mostly just looking for some online friends to chat with at night?
+
+Oh well, sorry for the wall of text. If you think you may be interested, definitely contact me. :)
+
+tl;dr:
+shy, nerdy guy looking for friends!",0
+"It's Sunday. Today, we watch our Falcons take to the field and fight for another win (unless you're like me and have to work). Today we rise up. We are heavily favored over the Raiders, regardless we have to have the mindset that this is just like any other football game, and any team can come out and win on any given Sunday. We must be humble. Nothing is ever for certain in the NFL. We need to give them hell in the Georgia Dome today. If you are going to today's game, you cheer our men on with the passion I know you all have. Also I request that you enjoy yourselves for this may be the best team we've ever had in franchise history. Don't give me your crap on how we haven't yet proven ourselves. We've consistently won time and time again over the last couple seasons, till now I feel like this is going to be our year. Enjoy every second of it my friends. Falcons [Rise Up](http://www.youtube.com/watch?v=8hgm21f-wfk) on this Sunday!",0
+"So today I was in Dillards, because although they don't carry my size, they do carry sizes that are close enough for me to try on in brands that *do* make my size and suss out whether or not I like them. While I was looking over some bras, I heard a woman and her friend picking out some bras, and one of the women (who looked similar to my weight) said that she wore a 36 band! Luckily her friend was a bit informed, and talked about how at the specialty bra boutique in our town say to wear a tighter band and bigger cups. I'd been fitted there too so I used it as an opportunity to jump into the conversation!
+
+She was very receptive to my advice (which I was nervous about, as she was middle aged and I'm a young looking 20- I could honestly still be a freshman in high school depending on what I'm wearing) and I refitted her from a 36C to a 32E! I also encouraged her to buy that size online because department stores are expensive :P",0
+"It's that time again! A brief explanation for interested newcomers: we vote on two books a month, modern and gutenberg. The modern category is flexible, gutenberg is for anything that is available off the project gutenberg website (which means free books for people with ereaders). Make as many submissions as you like. The two books with the most upvotes become the books of the month.
+
+Also, for the people new to reddit, [RES](http://redditenhancementsuite.com) is your friend.
+
+Voting is open until the end of the weekend.
+
+This is the selection format:
+
+&gt; **Modern Book Submission** / **Gutenberg Submission**
+
+&gt;[Book](http://en.wikipedia.org/wiki/Book)
+by [Author](http://en.wikipedia.org/wiki/Author)
+
+This is the formatting to make hyper links:
+
+    **Modern Book Submission** or **Gutenberg Submission**    
+    
+    [Book](http://www.wikipedia.com/Book)    
+    By [Author](http://www.wikipedia.com/Author)****
+",0
+"I interviewed with a company in Dublin and I should be getting an offer any day now. 
+
+Now, I know a whopping 3 people in the Columbus area. Where are the best places for a 28 year old guy to meet people?
+
+I have a dog and I will also need a garage. Where are some reasonable places to live? Reasonable means an affordable place that I would be proud to invite friends over for a visit.
+
+I'm interested in live music, socially drinking, talking to nerds about technology, going to the track on my ATV and good coffee. Point me in the right direction /r/Columbus! 
+
+Thank you!
+
+**Edit:** I'm not sure if anyone is still reading this post but I'll try to add another question here. What kind of high speed internet is offered in the area. Where I live now you only have a choice between the cable company and DSL. The lack of competition keeps speeds slow and rates high. Can you get a fiber connection in Dublin/Columbus area yet?
+
+Thanks again.",0
+"Hi all, I was looking at various outdoor/bushcraft knives, and I had a question about the blades.
+
+The knife I currently use (buck 119) has sort of two tapers on the blade (I don't know if there is any sort of terminology for that).  By that I mean, it tapers from the middle of the blade, and then there's another taper to the edge.
+
+I've been looking at some bushcraft blades, though, and it seems like there is only one taper from the middle of the blade to the edge.
+
+Here's an example: http://farm9.staticflickr.com/8291/7806122906_7f2251ab6d_b.jpg
+
+My questions are: 1) do they actually have blades like the latter? or am I just seeing it wrong?
+2) is one type of blade better than the other?  Is the blade with only one taper easier to sharpen or anything?  (I've sharpened my buck knife, but have never gotten it razor sharp)
+3) What is the purpose of either type of blade?
+
+thanks!
+
+Edit: I guess i'm asking about Scandi vs beveled edge blades",0
+"There are other subreddits for this, and frankly it seems r/DJs doesn't want to listen to your 2 hour brostep mix and there are a lot of submissions on the front page all with negative votes. It's kind of distracting from any real content submissions or questions, and they just get downvoted anyway.
+
+So can we tone it down with the mix submissions and try to post some more real content to make this subreddit a little more engaging?
+
+Edit: I'm glad I'm not the only one. Honestly I think this subreddit would be 10x better if all mix submissions were done away with and there was a note on the sidebar to take them to r/mixes and then only have one mix of the month thread but no normal mix submissions here. Half of the time people are crossposting their mixes here from r/dubstep and r/mixes anyway and it just spams the front page with stuff no one comes here to see, and to be honest most of them are pretty sub par. ",0
+"Directions [here.](http://g.co/maps/uh8gy)
+
+We have the upstairs booked. 
+
+Description a la Dreman:
+
+Transcript extracted from upcoming Reddit Meetup using time-machine technology:
+
+Olivia Wilde: Wow, I can't believe there's always a birthday at these meetups. I'm so lucky to be in the spotlight tonight.
+James Early Ray: I hate dreamers, so you need to stop right there. It's my birthday too! But hey, we can celebrate together if you know what I mean?
+Osama Bin Laden: Ha! You and Olivia Wilde? That'll be the day. At least I'm rich, I can offer her more than you ever could!
+Timbaland: Yeah, and you're also dead! You shouldn't even be here if you ask me.
+Kim Campbell: Canadian content laws stipulate that I should be here though!
+Carrie Underwood: Stop fighting! We're here to celebrate! I'll start the song!
+Sharon Stone: A one and a two and a one-two-three-four…
+Chuck Norris: Sing for me! 
+
+And they did. Because Chuck Norris.
+",0
+"First of all, I am no professional DJ by any means.  I have a nice setup (Pioneer DDJ-S1) and a couple of speakers.  I pretty much mess around every so often on them in my free time.  I can do basic mixing and looping.  However, my music selection might not be the best fit for a party/dancing atmosphere as some of my music is probably more esoteric to the average joe.  Basically I need some music that people can recognize and dance to on the floor.  I have my standards, but I think it's important for the people dancing to have a good time and dance to songs they recognize, even if it means blasting a couple of justin bieber remixes.  
+
+Any suggestions would be greatly appreciated.  And if you could recommend any good music pools or sites to download from, that would also be amazing.  I love hearing unique mashups and I feel it gives a lot of flare for a set.  Also, any general DJ knowledge you cna share would be very helpful.",0
+"Alright guys (gals). It's summer. And I'm breaking out the shorts.
+
+The thing is, this summer the higher waisted shorts are in. So here I am with some shorts with a little extra room to bring them higher and BAM my butt looks FANTASTIC when I wear them like this.
+
+The problem is I have a bit of [camel toe](http://forums.watchuseek.com/attachments/f21/477125d1311382026-sumo-gets-expanded-22mm-its-2mm-wider-you-know-camel-toe-bikini.jpg). (do you know how awkward I felt google image searching that?) Wearing underwear does minimize it but not enough. I realize there are some guys out there that like it, but I see my best friend wear her shorts like this all the time and it just looks^so^trashy^pls^stop.
+
+I called up my mom and asked her what to do about it but being as girl problem ignorant as I am, she just told me to do some squats and maybe stretch out the fabric a bit. It helped but not any significant amount. :/
+
+HELP",0
+"Just when I was wondering what's the point I get this:
+
+&gt;Master Palmer,
+
+&gt;Today I learned something very interesting about the benefits of 
+having taken your Literature class. Passing the Ap literature exam not 
+only enabled me to skip taking a literature class at The University of 
+______ it also satisfied a 15,000 word writing requirement to enter the 
+______ College of Business. Given that most college papers are 
+double spaced, I approximate that passing your Ap exam allowed me to 
+avoid writing five, ten page papers. I cannot adequately express my 
+appreciation of your class and your time spent enabling me to pass the 
+exam. In truth I always thought you were an ass for overtly believing 
+your class to be the most important offered at _______, but in 
+hindsight it's the class that most benefited me. Thanks again.
+
+&gt;- Former Student
+
+&gt;P.s. I will be sure to MAKE MUCH OF TIME now that I've no papers to 
+write!",0
+"I just realized I am a lonely fuck. I've only showed intimacy to one person my entire life (a girl, and that was three years ago) and I'm honestly to the point where I don't even see the point in trying to develop a relationship with someone and it is driving me insane. The amount of jealousy that I place toward couples that I see being affectionate to one another is absurd and I just want someone to call mine, but I have an irrational fear of being committed to someone. Truth be told, I don't know where it comes from, I don't know how to get rid of it, and I definitely don't want to feel this way for the next stage of my life. On top of all of this, I'm not even sure who the fuck I am, as in my sexuality is confusing me. I'm attracted to guys, I'm attracted to girls, and yet I don't want to be with anyone, but I know I want to be with someone (:/). This all sounds incredibly confusing, but I just need some life advice.",0
+"Just got a physical for the first time in many years and after a blood test, I came up deficient in vitamin D. He's already prescribed me the D3 supplements, but what worries me is I get 6-8 hours of nonstop sunlight a day, 5-6 days a week from working outside. I'm fair skinned which means I generally absorb vitamin D much faster than someone with dark skin. I've had blood tests in the past, and I've had no problems with this before. I've checked WebMD (I know...), and I do not suffer from any allergies, get more than the recommended amount of sunlight, and eat plenty of meat, so I'm struggling to understand why I would have a deficiency in the first place. I've read the other posts, and most just said ""take the supplements and get more sun"". Since I already do one, and will be getting the supplements tomorrow, my only other concern is why my body is not absorbing/creating Vitamin D from the 6-8 hours of sunlight I get a day.",0
+"So I posted here a while ago as I'd never had an orgasm before, I got a lot of good advice (thank you!) and am still practicing! I went to talk to my GP about it and she said as I'm still young (22) there is still hope! and to just pretty much buy up the entirety of Ann Summers (British sex toy retailer) and try different things to see what works for me, she gave me a card for a sex clinic as well but I'm still trying different toys at home, I've done some research into people with the same difficulties as me and came across this Hitachi Magic Wand that apparently has magical powers. Out of a group of 465 chronic anorgasmic women, 93% of them could apparently then reach orgasm using the Hitachi wand!
+ I'll probably buy it anyway when I can afford it, but I wanted to ask you guys, have any or you used it? Is it as good as it claims? Anyone been in a similar position to me that's used it?
+ I'd love to know what you guys think! ",0

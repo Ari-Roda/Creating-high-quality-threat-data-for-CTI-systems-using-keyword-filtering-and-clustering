@@ -1,0 +1,509 @@
+A,C
+"Concerning the end with the `Cannot access memory at address 0x8048487`, it's my bad, it's due to a breakpoint which I typed the address by hand (should have been `0x08048487`), you can forget about those warnings, they're, I actually get a proper shell when I don't mess things up. Effectively I changed the shell code to a 24 bytes one (I've been doing many tests), for a total of 304 bytes (the required number to get a SIGSEGV). The problem is: why case 1 & 3 do not work while case 2 works (in gdb) ? Thanks.",1
+"<p>I am not very knowledgeable about CA certificates, but I thought these things mainly said
+""The public key for bank X is Y, and this is verified by CA Z"".</p>
+
+<p>Once you've bought this certificate, there is no need to be in touch with the CA, and thus they have no need to keep their generating computers connected to the internet, no?
+Then why were hackers able to steal the private keys from Comodo and DigiNotar ?
+(there must have been a good reason to keep those computers connected to the internet?)</p>
+",1
+"@JohnSebastian I dont know who you are, but i will find you. within this course you get to understand much more than that. you would learn the bread and butter of exploit development (i.e. buffer over flows). sure it feels a little script kiddy to start with, but thats the easy stuff. if you want to learn this stuff by your self thats easy, the hard part is practice. to write exploits, good onces, you need to understand what you are looking for....this is a really in depth conversation to have in comments...",1
+"wow, a gold badge! I've just noticed. Congratulations! :) You deserve it. As I said already, I saw the effort(in more iterations) that you have put into this answer. Your testing code is really clever! I've had a hard time deciding about the answers, and I wanted to reward both, yours and mr.spuratic's answers. Since you already got so many up-votes(mine included of course). Rewarding mr.spuratic's answer with the bounty and the accepted flag seemed like the best thing to restore balance in the Universe! ;-)",1
+"@TidalWave sure, the book of infinity is a joke program, both in attitude (insistance on reproducing the same meaningless ""book"", and not just random content) and in practice, exactly as you described. That being said, if I were to take my suggestion seriously, I'd defend it stating that (1) the OP mentioned HTTrack in a way that suggests single users mass-downloading a website rather than a distributed crawler, and that (2) one could use the book of infinity to generate a tarpit, similar to OpenBSD's spamd.",1
+"The only DTMF you'll see in a Wireshark capture comes from various protocols that have ""send this DTMF tone"" messages in them or protocols that actually send waveforms.  In neither of those cases can you do a simple ""convert the file to multimon raw format""; you would have to understand the protocols in question and somehow extract the waveforms.  I don't have time to do the analysis for you; you'll need to give a *much* more detailed task description in order for anybody to figure out what needs to be done.",1
+"@JeffStice-Hall: While there are probably (hard) ways to better find out if the CA is real and trustable I don't think phone call is a way, because you cannot really verify who is at the end of the phone. And even an office can be faked, although this is more costly then just a fake website. And perfect trust is simply not possible, so one has to decide when to stop checking and start believing that everything is fine. But yes, no one has to trust but if you don't trust anybody live usually gets even harder.",1
+"<p>Is there any method of programmatically determining the current security zone settings for Internet Explorer?</p>
+
+<p>I'd like to know when my site will have the XMLHttpRequest ActiveX control blocked due to IE security policy, but before the site actually tries to create it and thus causes the yellow bar to appear up the top (saying ""To help protect your security, Internet Explorer has restricted this webpage from running scripts or ActiveX controls that could access your computer."")</p>
+
+<p>Thanks.</p>
+",1
+"One of my older laptops actually makes a humming sound that changes based on what I am doing. I found that encrypting `/dev/zero` and writing to `/dev/null` with OpenSSL makes a different sound if 128-bit AES is used, as opposed to 256-bit AES. I could also tell by the sound when I was scrolling on a web page, and even if that web page had active content. I was eventually able to distinguish Wikipedia from an old Flash site. If my own human ears could do that, just imagine what dedicated technology could do!",1
+"Passed today! Need to find a CISSP willing to vouch or use another method but it feels good. I took an ISC\^2 boot camp for preparation which helped a lot. Other than that I read 3 chapters of the 11th hour study guide and did roughly 500-600 practice questions. That's a lot less but than I probably should have but I do have a background as an ISSO and penetration tester that I leaned heavily on. If I had to do it again and didn't have the luxury of the boot camp, I'd read the Sybex book from cover to cover.",1
+"<ul>
+<li>Reversing: Secrets of Reverse Engineering (2005)</li>
+<li>Disassembling Code: IDA Pro &amp; SoftICE Book/CD Package: IDA Pro and SoftICE (2006)</li>
+<li>Hacking: The Art of Exploitation Book/CD Package 2nd Edition (2007)</li>
+<li>Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code (2008)</li>
+</ul>
+
+<p>Personally I really liked the Reversing: Secrets of..</p>
+
+<p>A must read for any reverser is obviously AoA (Art of Assembly) which is free and can be downloaded.</p>
+",1
+"@Moo I'm not exactly sure on the specifics. I would imagine that you could hash the password on the server side, but I'm not exactly sure what hash functions / key derivation functions are supported. There's no length limit that I'm aware of on the PSK, but the point is that the entropy of a password is _much_ lower than that of a certificate. To gain 256 bits of entropy, you need 43 perfectly random upper/lower alphanumeric characters to represent that randomness as a password. Rather difficult to remember!",1
+"<p>I was recently thinking about keeping my computer secure from physical access, and i decided that the safest way to keep my data under lock and key, was to do just that: Create a lock and key out of a USB drive. My idea is this: A USB drive would act as a ""Key"" preventing login unless it was inserted. Is this possible, and can it be done for a reasonable price? if so, how could i manage that, and what sort of programs should i look into? i am running Mac OSX Mountain Lion if it is of any consequence.</p>
+",1
+"Are the test credentials good on any publicly accessible server or only on local servers that developers set up for testing (and presumably protect from public access)? If the test credentials can be used on any publicly accessible server, they will be, and someone will figure out a way to do something you don't like. It might just be a DOS attack. Think about the functions being tested. Are any of them privileged in any way? Think like a cracker. Could you use the test creds to break into anything of value?",1
+"<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""https://security.stackexchange.com/questions/9286/how-can-i-prevent-my-kids-from-bypassing-my-computer-restrictions-based-on-windo"">How can I prevent my kids from bypassing my computer restrictions based on Windows Vista?</a>  </p>
+</blockquote>
+
+
+
+<p>My 14 year-old son is using a Ctrl+Alt+Del procedure to get into my computer even though it's password-protected. How can I prevent him accessing my PC? He got that procedure on the web.</p>
+",1
+"<p>i am using spring remoting alongside spring security
+I have 2 servers (let's call them ""front"" and ""back"")
+The ""front"" server is exposed to the outside world and receives, along with the rest of the request, the ""Authorization"" header. However, i notice that when i use spring remoting to call the ""back"" that header is not copied. What do i do?
+BTW, I haven't checked it yet but i am almost certain that it won't work for ""JSESSIONID"" as well.. what do i need to do in order to propagate these 2 headers?</p>
+",1
+"<p>This question tries to look into whether doing HTTPS log in is very important for any website.</p>
+
+<p>Is it true that for many websites, if the login is done through HTTP but not HTTPS, then anybody can pretty much see the userID and password easily along the internet highway (or by looking between a router and the internet connection in an Internet Cafe)?</p>
+
+<p>If so... do popular frameworks actually use HTTPS by default (or at least as an option), such as Rails 2.3.5 or Django, CakePHP, or .Net?</p>
+",1
+"@RitwikG: The way you make money on it is: the owners of CrappyToasterOvens.com calls you up and says **We want to be the #1 Google hit when someone searches for ""toaster oven wedding present"". Make it happen.** So that's your job. How are you going to do it?  Google looks for *popular pages that link to other web sites with keywords*, so you think OK, I'll put a million comments on a million blogs with the words ""toaster oven wedding present"" and a link to the site, and *some* of them will be popular blogs.",1
+"<p>So I'm working on a boot to root and I think I may have found a section that I can inject php. The problem is when I inject my php it gets commented out. I'm trying to find what function this is so I can see if there's a work around but for the life of me I can't find it because these terms are so ambiguous. </p>
+
+<p>Does anyone know the php function that will take:</p>
+
+<p><code>&lt;?php echo 'it works'; ?&gt;</code></p>
+
+<p>and turn it into </p>
+
+<p><code>&lt;-- ?php echo 'it works'; ?--&gt;</code></p>
+",1
+"<p>The URL filtering can block the HTTP traffic but not the HTTPS traffic in Internet Explorer.
+For example, the website <a href=""http://www.facebook.com"" rel=""noreferrer"">http://www.facebook.com</a> is blocked by the URL filtering while the <a href=""https://www.facebook.com"" rel=""noreferrer"">https://www.facebook.com</a> cannot be blocked.
+You cannot also block the HTTPS traffic during InPrivate browsing in Internet Explorer.</p>
+
+<p>Is there any solution for block the HTTPS traffic using URL filtering?</p>
+",1
+"If the attacker has 20 second access to your running and unlocked computer, he can do the following: download a script from the web, the script would detect and kill the screen saver, start a modified screen saver which accepts an additional password, start a background server which accepts shell commands over TCP, and modify startup scripts (possibly the X11 profile script) to start the background server and the modified screen saver at startup. -- So you don't want to have your running computer unattended.",1
+"""So, someone made a trojan to earn you some money?"" Seems weird at first, but after thinking about it a bit it makes perfect sense. His domain is a false lead, a red herring. If I were going to make a trojan that did something like this, I wouldn't want all the domains to lead back to me; pepper enough unwitting beneficiaries into the list of paying clients, and it's easier for those clients to claim plausible deniability. If half the people on the list don't know about it, who's to say which half is guilty?",1
+"I was expecting such comment much earlier :-) I don't need to use GCM. Before I posted this message I already use the ""working"" method which is to use CBC, and I moved on. I'm far far from an expert in these cipher and mode algorithms. I only ""know"" CBC, GCM and XTS from configuring TLS for http server, configuring SSH daemon and encrypting disks. They have strengths and weaknesses which I don't know well. The reason for the question is that I was curious to try the GCM mode and puzzled that it did not work.",1
+"<p>Use a cryptographically safe cookie value such that modification of the value would invalidate the session. In other words</p>
+
+<p>cookie = encrypt(username, expiration, secret)</p>
+
+<p>Where only your application knows the secret. With that said, don't do this yourself. There are a ton of ways this can be done <a href=""https://docs.microsoft.com/en-us/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset"" rel=""nofollow noreferrer"">securely in MVC.</a></p>
+",1
+"Just out of interest really - is there any reason for python being a problem? Usually, being able to prototype quickly is really desirable and scripting languages are good for this ([Rory Alsop said so!](http://www.youtube.com/watch?v=57BzHxcn2V0)). Metasploit for example is [written in Ruby](http://www.rapid7.com/products/metasploit/) which is like Python, but for cool kids. I wouldn't dismiss Python or any other scripting language as necessarily a ""bad one"" - you certainly can't beat them for speed of use.",1
+"he would only discover the other switch and some of the other untrusted machines that you have decided to keep them away from important information. At this point he would be able to sniff traffic but still unable to access your private network. However, you would also get notification that your public switch has been compromised and could pull off the plug. The second part, yeah MiTM only if those computers are updated and properly secured and then left alone from within because user role plays a huge part.",1
+"@Ajedi32 - XSS is a major vector for injecting such malicious JavaScript though, if you can prevent that, then the instances of drive by malware goes down significantly.  Preventing malware download is one of the main goals of the project.  The main point I was getting at was simply that not all Javascript is dangerous, only particular parts.  If you can avoid those part, then you are far safer, that can be done by either the client or the server or both as long as the server itself is actually trust worthy.",1
+"<p>I am trying to set maxage for a session cookie in tomcat application.
+I have made changes in web.xml</p>
+
+<pre><code>&lt;session-config&gt;
+        &lt;session-timeout&gt;30&lt;/session-timeout&gt;
+         &lt;cookie-config&gt; &lt;max-age&gt;30000&lt;/max-age&gt; &lt;/cookie-config&gt;
+&lt;/session-config&gt;
+</code></pre>
+
+<p>But google->developertools->Resources->Expires/Max-Age has value SESSION.</p>
+
+<p>Does it mean max-age is not set for cookie ? Or am I doing anything wrong.</p>
+
+<p>Thank you</p>
+",1
+"*""I have tried online free decryption tools, but none of them find the way to discover which algorithm was used.""*  most passwords generated in most programming languages nowadays uses a **internal salt so (online) rainbow tables becomes useless**.. Notice [this](http://sandbox.onlinephpfunctions.com/code/00f10fd98661089c86d1a3c2fb916d72a623dede) (PHP) code and see the hash is different foreach run even for the same password.. Also blowfish is slow to run on GPU's so bruteforcing on GPUs is also not a option",1
+"@Devil'sAdvocate OK.  None of that changes anything.  He got authorization verbally from you (which is something you shouldn't have done if you actually were viewing sensitive materials at that particular moment), and you have have no idea what authentication is being used here (yes, domainless/workgroup computers authenticate users), what logging or auditing is being done, or even what protocol or program the guy used for remote access.  You're just guessing at everything, so, not enough information to say.",1
+"An API will be needed to read the hash if the one you located is wrong or incomplete.  The premise of this question is that regedit & file browsing tools built into the OS are sufficient to view the hash.  That may not be the case, and the value may be stored in binary using a non documented API that is restricted to a specific calling process.   Your question seems to think linux-like where you can browse to a ./etc/passwd file.  That's not necessarily the case with Windows OSs... but I don't know for sure.",1
+"<p>Personally, I would implement security profile with some MAC for that. If you run Ubuntu, than out of the box you have AppArmor. It has lower entry level comparing to SELinux, so you have less chances for missconfiguration. You can restrict network access and access to filesystem, so that Word will be able to access only documents in dedicated folder.</p>
+
+<p>BTW: from security perspective having Wine in your Linux environment is a bad idea as it makes you vulnerable to some range of Windows malware.</p>
+",1
+"<p>Is it possible to make a more secure random number generator (e.g. for cryptologic purposes) by combining two or more less secure random number generator algorithms using XOR?  Here is an example of what I am talking about:</p>
+
+<pre><code>// Create random numbers using weak algorithms
+weak_random1 = WeakRandomAlgorithm1(seed1);
+weak_random2 = WeakRandomAlgorithm2(seed2);
+...
+
+// Combine the random numbers into something stronger with XOR
+stronger_random = weak_random1 XOR weak_random2 ...;
+</code></pre>
+",1
+"<p>I have a ruby on rails app which essentially runs on a bunch of AJAX calls and a tonne of jquery/javascript. A particular action accepts an id(integer and serially ordered) and returns some value. The nature of the application is such that I want to allow the function to be called only when called from the browser or how a regular user would interact with the app. However, a malicious user can probably set up a bot to call the function with the id to get the return value. Is there a way to stop this?</p>
+",1
+"<p>I want to develop a secured FTP Connection to a server and send/retrieve files using Android.</p>
+
+<p>I have researched a lot and found many different ways, so I don't know which tools and libraries I need for this project.</p>
+
+<ul>
+<li>What kind of server will I need? (I heard about <a href=""http://en.wikipedia.org/wiki/OpenSSH"" rel=""nofollow"">OpenSSH</a>)</li>
+<li>How can I make it work on my Windows system?</li>
+<li>Which libraries will I have to use?</li>
+</ul>
+
+<p>I'm using Windows and Eclipse.</p>
+",1
+"*However this is not how most EV certificate descriptions actually read.* - what does it matter what *most* provide as long as they are vendors of multi-domain certificates  (if your unproven statement is true at all). There are [easy to find](https://www.google.com/search?q=multi-domain+ev+ssl) vendors of multi-domain EV certificates, for example [Entrust](https://www.entrust.com/ev-multi-domain-ssl-certificates/)
+ or [Comodo](https://www.namecheap.com/security/ssl-certificates/comodo/ev-multi-domain.aspx).",1
+"<p>It is true random, but obviously a little overkill. As launching camera and taking a picture is somewhat slow operation, and the user would be amazed if she found the camera is constantly turning on and off.</p>
+
+<p>Smartphones have a lot of other sensors you can utilize, like the accelerometer, ambient light sensor, I believe these are much more efficient and hopefully more energy efficient. I think I have read somewhere that CPU uses its thermistor to acquire true random data, this is a great idea.</p>
+",1
+"@entropy, *""I was hoping I could get some novel techniques to defeat that in answers.""* If you want this, then please start a new question, and be very specific about what you are and are not interested in as an answer. Things like ""I tried and couldn't"" are very different from ""I'm confident it's not possible"". I'm asking you to start a **New Question with very specific requirements** if you need more details, because it gives you a clean slate and keeps me from having to delete the work I've done thus far.",1
+"<p>I'm trying to get the absolute path of a uri in a MVC ASP.NET webpage.
+I'm using the </p>
+
+<pre><code>Request.Url.AbsolutePath
+</code></pre>
+
+<p>But this can be hacked using some clever XSS technique by giving a url like</p>
+
+<pre><code>http://example.com/about/%27%3bfunc(document.cookie)%3b%27gfg
+</code></pre>
+
+<p>This would give me the ""absolute url"" </p>
+
+<pre><code>/about/';func(document.cookie);'
+</code></pre>
+
+<p>by using the Request object above. So how can this be avoided?</p>
+
+<p>Cheers
+Jens</p>
+",1
+"<p>I have made an App that has recently gone through a penetration test. I am required to set the X-Frame options in the application to SAMEORIGIN. This is to prevent clickjacking. I believe this is possible in the App.yaml file, but I am not sure how to implement something like this. I have scanned the docs and still can't work out how to deny, only allow.</p>
+
+<pre><code>handlers:
+    - url: /.*
+          script: public/index.php
+          http_headers:
+            X-Frame-Options SAMEORIGIN
+</code></pre>
+",1
+"@JDługosz BuvinJ actually asked about the quantum computers in another question.  As for reversable computers, I think upgrading technology from technology we have right now to technology that we're not entirely positive it can be done within the limits of physical reality is beyond the scope of what the OP was asking for =)  It is also entirely possible that reversible computers, while avoiding the energy costs of bit-erasing, still may not avoid the computational time costs mentioned in the winning answer.",1
+"I think this depends both on the kind of site and on the opinions of the users. Often locations can be found out based on the content of the pictures. And by uploading the pictures the users already provide lots of information about their friends, where they live etc. So having the EXIF with GPS, time, kind of camera... inside might actually considered just one more of the many information the user voluntarily shares. I therefore suggest to close this question because answers will be primarily opinion based.",1
+"<p>I got an email saying: </p>
+
+<blockquote>
+  <p>""We've been contacted because of your continued attempts at harassing
+  Broda and his friends. We're fans of him and we have his back. Delete
+  your twitter, delete your Youtube channel and do NOT attempt to
+  contact Broda ever again. Failure to do so will mean you become out
+  latest example. Lizard Squad.""</p>
+</blockquote>
+
+<p>And the email address is <code>lizardsquad@lizsquad.net</code></p>
+
+<p>Please tell me what to do. Should I trust it is real?!</p>
+",1
+"@AlexisBeingessner: Neither prove it, but both deal with the issue and suggest that greater password strength can be achieved with passphrases without any stupid restrictions on characters used. Other research for which I don't have a link handy suggests that placing restrictions on the characters used encourages users to generate weaker passwords by reusing the same basic word(s) and applying trivial mechanical transformations to meet the particular site's requirement (e.g. changing all i's and l's to 1's).",1
+"@JasonC - The decryption logic I used cannot be considered as malicious by heuristics analysis since there is nothing malicious in the way it works. It's a completely legitimate decryption function with a passphrase that the user has to type. If that decryption logic was considered as malicious by antivirus or anti malware softwares, then none of the legitimate encryption/decryption softwares could be used anymore since they would also be flagged as malicious because of their use of similar decryption logic.",1
+"If you are really concerned about the potential collision caused by psuedo random number generators within a VM, you could leverage a service like Amazon KMS to generate and store your keys for you. Going further, if you need a key local, you could also simply use an HSM service to hold a Key Encryption Key that you call when an application runs to store a local key in memory until it is no longer used. Then the local key is re-encrypted and the HSM connection closed. These are your most practical solutions.",1
+"Yes, you're right. A new valid signature will be required when you change the username. Signatures are created by using one way hash functions. To solve this challenge, you may need to brute force the Secret that will be appended to the payload to create a valid signature after you have changed the username. The following post may provide some useful info: https://stackoverflow.com/questions/27301557/if-you-can-decode-jwt-how-are-they-secure. I will give it a try at my end and post the results if that helps.",1
+"<p>I need to deny unauthenticated users to access some website pages. I know that dotCMS roles can do that, but i need to guarantee that Spring do the same job.
+It's possible apply Spring Security in dotCMS?
+I tried to implement some security with Java Config but with no success.
+I've seen this <a href=""https://stackoverflow.com/questions/33633040/dotcms-with-spring-security-authentication-in-grails-application"">post</a> but it wasn't conclusive to me.
+I didn't find any other example of this on the web.</p>
+",1
+"<p>The answers mention that hacking is legal when authorized. </p>
+
+<p>This is not the case everywhere, Germany has since 2007 a <a href=""http://www.darkreading.com/risk/hacking-germanys-new-computer-crime-law/d/d-id/1128950"" rel=""nofollow"">wicked</a> <a href=""https://www.schneier.com/blog/archives/2007/08/new_german_hack.html"" rel=""nofollow"">law</a> which makes illegal everything related to hacking,  legal or not. </p>
+
+<p>How much this law makes sense and is enforced and enforceable is another story. </p>
+",1
+"What about just using a challenge response authentication mechanism like [SCRAM](https://en.wikipedia.org/wiki/Salted_Challenge_Response_Authentication_Mechanism) or [SRP](https://en.wikipedia.org/wiki/Secure_Remote_Password_protocol)? If enrollment is implemented the right way, both have the property that the server never gets in touch with the bare password or something it can use to log in to other servers. Brute-forceability though is a property of password based auth which no protocol can save you from.",1
+"<p>This can best be answered by quoting <a href=""http://en.wikipedia.org/wiki/Milli-"" rel=""nofollow noreferrer"">Wikipedia</a></p>
+
+<blockquote>
+  <p>Milli (symbol m) is a prefix in the metric system denoting a factor of one thousandth</p>
+</blockquote>
+
+<p>Munin (by default) reads a counter every 5 minutes, and calculates the average between the two last reads.  66m means 66*300 = 19.8 accesses within a five minute period (but the 66 is probably 66.6666, so you'll end up with 20 accesses that interval).</p>
+",0
+"<p>It's possible. Have a look here <a href=""https://docs.docker.com/engine/tutorials/networkingcontainers/"" rel=""nofollow noreferrer"">https://docs.docker.com/engine/tutorials/networkingcontainers/</a></p>
+
+<p>First you create new network</p>
+
+<pre><code>docker network create -d bridge my-bridge-network
+</code></pre>
+
+<p>And then when starting your container - you specify which network it should be attached to</p>
+
+<pre><code>docker run -d --network=my-bridge-network --name db training/postgres
+</code></pre>
+",0
+"<p>I had a lot of important files on my iPhone in an app called Documents Mobile Office. 
+During upgrade of the application, the upgrade failed &amp; the application does not reload. Hence I can't access the files in the application (.doc, .csv etc).</p>
+
+<p>As I thought all files would be auto uploaded to the ""cloud"" I did not back it up in iTunes.</p>
+
+<p>I have a few of these files on my Google Dashboard which I have recovered, the rest I can't. How do I recover these lost files?</p>
+
+<p>Please help.</p>
+",0
+"<p>I agree that it would be nice to add votes to Stack Overflow's search engine, but I don't think that it's really necessary. Why not just use the following Data Explorer queries?</p>
+
+<ul>
+<li><a href=""http://data.stackexchange.com/stackoverflow/s/1894/lowest-voted-questions?Threshold=-15"" rel=""nofollow noreferrer"">Lowest-Voted Questions</a></li>
+<li><a href=""http://data.stackexchange.com/stackoverflow/s/1895/lowest-voted-answers?Threshold=-15"" rel=""nofollow noreferrer"">Lowest-Voted Answers</a></li>
+</ul>
+",0
+"<p>You can simply save your example as a text file adding the suffix .command or .sh to it to execute it with a double-click. AppleScript can call an .sh-script, too, with </p>
+
+<pre><code>do shell script ""/path/to/yourscript.sh""
+</code></pre>
+
+<p>Not sure if Automator can do the same.</p>
+
+<p>But <code>su</code> basically only works with commands not using the Aqua GUI of Mac OS X. So if you try to open an application like for example TextEdit this way, it wont be able to open a window on the Desktop. </p>
+",0
+"<p>I think this is a really basic question, but it had been a little while since 
+I dealt with this material and I was hoping to get a bit of assistance here.
+Let $q = p ^{2M}$ for some prime $p$ and $M \in \mathbb{N}$. Let $\mathbb{F}_q$ be the finite field of $q$ elements. Let $1,-1 \in \mathbb{F}_q$ and $\alpha \in \overline{\mathbb{F}_q}$, the algebraic closure. 
+Suppose I know that $\alpha$ satisfies
+$$
+\alpha^2 - \alpha - 1 = 0.
+$$</p>
+
+<p>How does it follow that $\alpha \in \mathbb{F}_q$? Thanks!</p>
+",0
+"In my field, computer science, and especially papers with theoretical proofs and algorithms, it is the same.  I still think that a full *first* pass of the paper in an hour is a good approach for the following reason:  if the paper cannot compel you to dig deeper with a single pass at 1 hour, how do you expect any other reader to actually read this paper.  The first pass should entice you into going deeper - if it does not because it is badly written or makes a trivial claim, then it not worth going further.",0
+"But then it's unclear why it took me so long to do this. Also, ""*someone who does that might very well succeed and learn something new.*"" but what prevents them from doing that if I mention that it didn't work for me? Isn't the opposite true: if somebody mentions failure and couldn't investigate fully, this is a possible target for future research? By ignoring those results entirely, the obvious question that it will cause is: *Why were X or Y not tried?* I doubt that not mentioning it at all is a good idea.",0
+"<p>I wouldn't remove the indicator-applet, as it also is your sound menu and power indicator.</p>
+
+<p>Check this <a href=""https://bugs.launchpad.net/ubuntu/+source/empathy/+bug/533109"" rel=""nofollow"">bug</a> out on Launchpad.  Is it the same as you're reporting?  If it is, please sign in and click the link where it says ""This bug affects X people. Does it affect you?"".  There are also some things to fix this issue in the bug thread.</p>
+
+<p>I haven't found a plugin for empathy to add the tray icon back.</p>
+",0
+"Well, that makes things a bit easier though. Firstly, check if you have android-tools-adb and android-tools-fastboot installed. The way to check this is obviously depends on your package manager, in case of debian derivatives with apt-get as Ubuntu: sudo apt-get install android-tools-adb android-tools-fastboot. Then connect your device to computer after getting in recovery. From that point you can use some diagnosis tools with adb/fastboot. Anyway, firstly you should try to clear cache as I mentioned before.",0
+"<p>i'd think option 3 would make the most sense, since ""webview"" could then be generically used for ""i have a question about embedding a webview (regardless of platform), while the platform tags would allow the user to differentiate. (ie ""webview + android"", ""webview + Qt"", or whatever.</p>
+
+<p>as a symmetrical example, if there was a tag ""button"", you'd expect it to apply to questions about working with buttons in your UI in general, and not be specific to, say, the WPF Button class.</p>
+
+<p>just my .2</p>
+",0
+"<p>When you setup Windows 7, you needed to enter a reminder (a clue/secret question) for the password. Try checking that. Try entering the password while having CAPS Lock ON. There is a possibility that when you entered the password for the first time, CAPS was ON.</p>
+
+<p>On a computer on a Workgroup, there is not need to use ""Computername\User"" or ""Workgroup\User"" while trying to login. Both make no sense.</p>
+
+<p>In the worse case scenario, rebuild. Try to remember the password you used this time :-)</p>
+",0
+"<p>I heard that developers must specify clearly the list of iBeacon UUID their app is working with, and that each change in this list would require an update.
+The reason would be to prevent companies to apply ""counter-marketing"" strategies, using their opponents' iBeacons to broadcast their own coupons. </p>
+
+<p>I'm developing a generic app that may let the user input his iBeacon's UUID or fetch them from a server. </p>
+
+<p>Would this application be really rejected by the appstore's validation process ?</p>
+",0
+"<p>If you're a DBA, one of the most beneficial tools I've ever purchased is Red Gate's <a href=""http://www.red-gate.com/products/sql_professional_toolbelt/index.htm"" rel=""nofollow noreferrer"">SQL Toolbelt</a>.  Specifically what you're looking for is their <a href=""http://www.red-gate.com/products/SQL_Dependency_Tracker/index.htm"" rel=""nofollow noreferrer"">SQL Dependency Tracker</a> which is part of the toolbelt or you can purchase it by itself.</p>
+
+<p>I don't work for Red Gate.  Just a happy customer.</p>
+",0
+"<p>Another way of showing there is no countable basis is by proving that the space $\mathbb{R}^{\mathbb{N}}$ has a quotient which does not admit a countable basis. This is in fact the hyperreals ${}^\ast\mathbb{R}$. By the saturation property, given any (countable) sequence of nonzero hyperreals, one can find an infinitesimal which is incomparably smaller than all of the hyperreals in the sequence. This shows that there is no countable basis (but of course does not quite give $2^{\aleph_0}$ without CH).</p>
+",0
+"<p>I think <a href=""http://beta.stackoverflow.com/questions/56103/fastest-gun-in-the-west-problem#56207"" rel=""nofollow noreferrer"">macbirdie</a> is on to something.  I would recommend a slight enhancement, though:</p>
+
+<ul>
+<li>for questions that have no answer marked as ""the answer"" by the question-asker, sort by ""oldest"" as the default</li>
+<li>for question that do have at least one answer marked as ""the answer,"" sort first by ""the-answer?"" then by ""votes"", then by ""newest"" (the current scheme)</li>
+</ul>
+",0
+"<p>When a tag excerpt is the only portion that is filled in, some people paste that text into the tag wiki as well, just as a place holder.  I think that's all that's being done in these cases.  </p>
+
+<p>I don't necessarily agree with the practice, but I think some users who review the edits are comfortable with that setup, so they get through the approval process.  Newer editors see these examples, and perhaps emulate them.</p>
+
+<p>In that case you cite, there is a bit more text in the tag wiki itself.</p>
+",0
+"<p>GParted is useless for this. You'll need to either use an assortment of text-mode tools (such as <code>resize2fs</code> and <code>lvresize</code>) or another GUI front-end, such as <code>kvpm</code> or <code>system-config-lvm</code>. I believe that both are available in the Ubuntu repositories. <a href=""http://www.ibm.com/developerworks/linux/library/l-resizing-partitions-2/index.html"">This article</a> I wrote a while back goes into a bit more detail, but stops short of being a step-by-step tutorial.</p>
+",0
+"<p>It sounds like you might need to edit your fstab tables as an extra drive is messing with your boot-up, give the following a try:</p>
+
+<ol>
+<li><kbd>Alt</kbd>+<kbd>F2</kbd></li>
+<li>Type <code>gksudo nautilus</code> and hit the run button</li>
+<li>Navigate to <code>/etc/fstab</code></li>
+<li>Open file and edit out the extra drive that is launching</li>
+<li>Save the file when done and close</li>
+<li>Restart machine</li>
+</ol>
+
+<p>This should stop the extra drive from interrupting your boot-up process.</p>
+",0
+"<p>The only ""danger"" I've ever encountered is the voice-coil permanent magnets.  If you were to pinch some flesh between them you could end up with a minor but painful hematoma or laceration.  When separated by a small distance (3-4mm) they can exert several kilograms of force, which increases quadratically as they get closer together.  If you let them stick together it will require significant force and a wedge of some kind to separate them.</p>
+
+<p>I have a couple of dozen pairs in a desk drawer :-)  </p>
+",0
+"<p>Yes, gravitational waves can be shielded. As gravitons are the particles which can interact with matter, the matter can absorb gravitons. </p>
+
+<p>This would depend on the wavelength however. For uniform substance the rate of absorption would generally decrease with the wavelength. The rate of absorption also can be increased by constructing mechanical oscillators with frequency in resonance with that of gravitational waves. Such oscillators would transform gravitational waves into mechanical energy.</p>
+",0
+"<p>I was driving from home to university earlier this week when I glanced at my dashboard just soon enough to notice the odometer tick up while simultaneously registering my speed and the time.  I thought to myself,</p>
+
+<p>""How might I find the probability that the odometer will tick up once more before the minute space on the clock increments?""</p>
+
+<p>That is my question.  If this belongs in physics, please move it.  Assume nonrelativistic velocity (unless, of course, you're into that sort of thing).</p>
+",0
+"<p>I am trying to completely remove my Ruby and Rails installation.</p>
+
+<p>After uninstalling Ruby with  <code>apt-get remove ruby1.9.1</code> I see that all the Ruby stuff like <code>ruby</code>, <code>rake</code> and <code>irb</code> from ""/usr/bin"" was removed but the gems remain here:</p>
+
+<pre><code>/var/lib/gems/1.9.1/gems
+</code></pre>
+
+<p>What's the best way to remove these? Again, I want to uninstall everything so I can try this install again.</p>
+
+<pre><code>rm -r /var/lib/gems/ ???
+</code></pre>
+",0
+"<p>Sometimes I want to rename a file that has quite a technical, complicated name by appending a date or some other information to it. Because the name can be complex, it can be problematic if the name is erased. When renaming a file using the ""Rename..."" option of a file's context menu in Nautilus, how can one undo the changes to a file name? The natural <kbd>Ctrl</kbd>+<kbd>Z</kbd> does nothing to revert the name, whether one is in the process of typing the new name or whether the name has been saved.</p>
+",0
+"Yeah absolutely. The problem was that my router does not support connecting to forwarded ports on the WAN IP from inside the LAN. This explains why I was able to connect to my WAN IP from my college's server but was unable to connect when using the WAN IP on my local network. 
+
+Answers came from this [AskUbuntu](http://askubuntu.com/questions/622120/ssh-to-ubuntu-desktop?noredirect=1#comment880813_622120) post and this [AskUbuntu](http://askubuntu.com/questions/240514/connection-timeout-for-ssh-server) post.",0
+"<p>There is no point to sending a message body with a 304 response.  In fact, the <a href=""http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.5""><strong>HTTP specification</strong></a> says that the server must not do so.  If you have one that is, it's misbehaving according to the spec.</p>
+
+<p>From the HTTP Specification:</p>
+
+<blockquote>
+  <p>The 304 response MUST NOT contain a
+  message-body, and thus is always
+  terminated by the first empty line
+  after the header fields.</p>
+</blockquote>
+",0
+"<p>I too miss the days of XP search. Still, try <a href=""http://www.voidtools.com/"" rel=""nofollow noreferrer"">Everything</a> Search.</p>
+
+<p>Freeware, runs on Windows 2000, XP, 2003 and Vista and Windows 7.</p>
+
+<p>Also, from the <a href=""http://www.voidtools.com/faq.php"" rel=""nofollow noreferrer"">FaQ</a>:</p>
+
+<blockquote>
+  <p>1.3 Does Everything search file contents? </p>
+  
+  <blockquote>
+    <p>No, ""Everything"" does not search file contents, only file and folder names.</p>
+  </blockquote>
+</blockquote>
+",0
+"@StudentT I'm a research officer with a PhD. I was brought on board on two different projects because I had what current PhD students working on said projects lacked, which was the ability to conceptualise the data. This is a skill that is developed over time, and a PhD program works to develop this. While the PhDs who worked on the project did a decent job, there are still a number of conceptual issues that I have to fix, including reanalysing the data sets because their analysis was just not up to scratch.",0
+"<p>No. It is not possible. </p>
+
+<p>After you make something a community wiki post, you no longer own it and therefore are not able to turn it back to a regular post. This is because you have given your answer to the community, and the community is greedy and won't give it back to you.</p>
+
+<p>(It is also because when something turns community wiki, it is more likely to get upvotes and not be closed as things like subjective and such. This is because Community Wiki posts do not gain or lose reputation.)</p>
+",0
+"<p>i have a problem with my workbench program. I use Mac Lion OS X and mysql workbench program. When i want to do any procedure to alter that doesn't work. Which is show to the procedure code i right click it, after ""Alter Procedure"" click but doesn't happen anything!</p>
+
+<p>i'm updated to MySQL Workbench program ""5.2.45 revision 10251"" to  ""5.2.47  revision 10398"" but both are can not make alter procedure. And one odd thing is alter table is working fine.</p>
+
+<p>Have u got any idea why doesn't work? </p>
+",0
+"<p>Just looking at it summarily, it's not quite <span class=""math-container"">$ξ$</span> cancelling <em>with itself</em>, but rather <span class=""math-container"">$ξ$</span> cancelling with  <span class=""math-container"">$\sqrt{ξ²}$</span>. This is clearly seen if you keep the integration variable as <span class=""math-container"">$l$</span> rather than changing it to <span class=""math-container"">$r$</span>.</p>
+
+<p><span class=""math-container"">$$E = k\int_0^∞(ξ²+l²)⁻¹.ξ.√(ξ²+l²)⁻¹.2πσl\ \mathrm{d}l$$</span></p>
+",0
+"<p>I have 2 CoC accounts. One on my ipod 4th gen, the other on my ipad 2. I want to link the account from my ipod to my ipad. I signed into gc on my ipad and it started a new account. I read some posts earlier that said to make a new gc account then sign into hat one on the new device. I made a new apple id on my ipod; then made a new gc with that apple id. It doesnt seem to work though, it says ""(null)"". Do I need the same apple id on my ipad thats with the new gc??? Sorry if this is too complicated...</p>
+",0
+"<p>Imagine that the water height is at a point where the force at B is exactly zero but the gate has not yet moved upward.</p>
+
+<p>Part of the weight of the gate will now be supported by the hydrostatic force, and part of the weight will be supported by the hinge at point A.</p>
+
+<p>In other words, the hydrostatic force must only lift a portion of the total gate weight.</p>
+
+<p><strong>Or alternatively</strong>, if your gate CG is far enough left, then the hinge at point A will be pushing the gate down.</p>
+",0
+"<p>I have a problem charging my battery.</p>
+
+<p>When I plug my power adapter into my MacBook Pro, the power adapter's light turns green (it doesn't change to orange) and my monitor light turns on (which means the laptop is getting power from the adapter)—but the battery wouldn't charge. </p>
+
+<p><img src=""https://i.stack.imgur.com/prK13.jpg"" alt=""alt text""></p>
+
+<p>However, when I use my friend's power adapter, my battery does charge. </p>
+
+<p>Is there a problem with my power adapter or something else?</p>
+",0
+"The fair use doctrine comes more out of a desire to protect US Constitutional First Amendment rights without the risk of suppression of criticism by the threat of a law suit. The intention has never been to allow for use not authorized by the copyright holder. Fair use also can be applied to free expression in the production of derivative works, so even though Campbell's soup holds a copyright on its labels, Andy Warhol's work was substantively different enough from the original to be considered fairly used.",0
+"@NateEldredge - This is actually a question I discussed with the chair of the department. It was my fear as well, but it seems that if my appeal is successful and I don't want to change my committee then he said they are ""professionals"" and there would be no chance of ""bad blood"" in this case. I believe this is possible, based on their personalities, although that might be wishful thinking. I'm a hard working individual with a lot to prove at this point, so it's certainly not an opportunity I would squander.",0
+"<p>For example, we have a ball with mass <em>m</em> lying on the Earth. Then we lift it to a height <em>h</em>. So, now system <em>Earth-ball</em> have potential energy <span class=""math-container"">$E_p = mgh$</span>. From Mass–energy equivalence system got <span class=""math-container"">$mass = \frac{E_p}{c^2}$</span>. Does it mean that potential energy increased  inertial mass of system and it's harder to accelerate that system, or potential energy just increased rest mass of system <em>Earth-ball</em>?</p>
+",0
+"<p>If I have a batch of two different <code>SELECT</code> statements, is it possible for them to be executed in parallel (if the SQL Optimizer deems it to be the most efficient execution method)?</p>
+
+<p>If the first <code>SELECT</code> statement is selecting into a temp table and the second <code>SELECT</code> statement is then inserting into that same temp table, does that prevent it from being possible for the two statements to be ran in parallel?</p>
+
+<p>(I'm guessing the answers are yes and yes :).</p>
+",0
+"<p>Recently I became interested in how suction cups work by creating a region of space with lower pressure than their surroundings, thus sealing the suction cup to the contact surface. Extrapolating this idea further, does this mean that a cube resting on a perfectly flat surface would be unable to be lifted since by doing so, you would be creating a region with zero pressure? Also, keep in mind that I'm speaking in purely theoretical terms and I understand that no object is perfectly flat and whatnot. </p>
+",0
+"<p>I installed Kubuntu-desktop via apt for testing purposes in Gnome.
+After removing Kubuntu-desktop the bootscreen still is the kubuntu one and not changed back by the uninstall process to the origin ubuntu one. I also noticed that in my standart Gnome Ubuntu Desktop some Fonts and Font-Sizes changed especially in Applications that use KDE librarie like Krusader and on the Menus in Gnome Panel and some other Applications. How can i revert these changes to the state before Kubuntu-desktop was installed?</p>
+",0
+"<p><strong>Performance would be a BIG reason.</strong></p>
+
+<p>Just because they can't change the data doesn't mean they can't affect the server.  A poorly written query could bring the production environment to its knees, and potentially cause other issues (like tempdb overflows):</p>
+
+<pre><code>SELECT *
+FROM BigTable A, OtherBigTable B
+ORDER BY Somecolumn
+</code></pre>
+
+<p>That's a recipe for disaster.  Notice that this is a cartesian product with an order by, which means it will be sorted in tempDB.</p>
+",0
+"<p>I am going to have Introduction to Artificial Intelligence in this semester &amp; I know that our main resource would be ""Artificial Intelligence A Modern Approach"", since I want to learn deeply and Implement all the algorithms we are going to learn, I want to implement a simple intelligent mini-game for each material in the course.<br>
+so my question is that what games would be best for each topic? the only ones I could come up with were a Sudoku Solver and a simple player vs. computer Tic-Tac-Toe. </p>
+",0
+"<p>Assuming it is not your primary drive, doing a 'chkdsk /f ' will prompt you to force a dismount. </p>
+
+<pre><code>C:\WINDOWS&gt;chkdsk /f e:
+The type of the file system is NTFS.
+
+Chkdsk cannot run because the volume is in use by another
+process.  Chkdsk may run if this volume is dismounted first.
+ALL OPENED HANDLES TO THIS VOLUME WOULD THEN BE INVALID.
+Would you like to force a dismount on this volume? (Y/N) n
+</code></pre>
+
+<p>There may be more elegant ways of doing this, but this is quick and easy.</p>
+",0
+"<p>I am making income/outcome worksheet like shown on the screenshot.</p>
+
+<p><a href=""https://i.stack.imgur.com/3JiP6.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/3JiP6.png"" alt=""Income/Outcome Excel worksheet""></a></p>
+
+<p>What I want to do is to have a cell (net sum), for example, F2 which automatically updates from the information I provide in column B, C and D.</p>
+
+<p>The formula should look something like this <code>IF(D:D=""Lose"",-B:B,+C:C)</code>.</p>
+
+<p>How can I do this?</p>
+",0
+"<p>By definition, for any oracle for a language $A$, $(coNP)^{A}=\{L \mid \overline{L} \in NP^{A}\}$. Using this definition and definition of co-class we have </p>
+
+<p>$$L \in co(NP^{NP})\iff \overline{L}\in NP^{NP} \iff L \in (coNP)^{NP}$$</p>
+
+<p>You can also use $coNP$ instead of $NP$ as oracle (as Yuval commented), since if we can decide $x \in L$ using an oracle for a language $A$ we can decide $x \in L$ using another oracle for $\overline{A}$ as well, because $x \in A \iff x \notin \overline{A}$. </p>
+",0
+"<p>The following book is a very good and complete source on Machine Learning:</p>
+
+<blockquote>
+  <p><a href=""http://rads.stackoverflow.com/amzn/click/0131471392"" rel=""nofollow"">Neural Networks and Learning Machines, Third Edition</a> is renowned for its thoroughness and readability. This well-organized and completely up-to-date text remains the most comprehensive treatment of neural networks from an engineering perspective. This is ideal for professional engineers and research scientists.</p>
+</blockquote>
+",0
+"<p>I'd <code>dd</code> the partition contents to a file, zip it and burn to CD/DVD.</p>
+
+<p>To copy contents of a partition to a file named recovery_partition.img in your home directory, use the following command:</p>
+
+<blockquote>
+  <p>dd if=/dev/sdaX of=~/recovery_partition.img</p>
+</blockquote>
+
+<p>where <code>/dev/sdaX</code> should be replaced by the name of the partition you'd like to back up.</p>
+
+<p>To find out the name of the partition, use Disk Utility (System > Administration > Disk Utility).</p>
+",0
+"<p>When Connect to Ubuntu Server from Linux Client Via Terminal, Specify the port Number,
+ Suppose that your server ip 192.168.16.10 (any hostname) ,with port 39 </p>
+
+<p>at terminal </p>
+
+<pre><code>ssh username@192.168.16.10 -p 39
+</code></pre>
+
+<p>where username is exist username on that server you connect , -p : specify the port number.</p>
+
+<p>At Vinagre Client , New Connection , then Specify the hostname:portnumber, <img src=""https://i.stack.imgur.com/49Bup.png"" alt=""enter image description here""></p>
+",0
+"<p>First of all, you can use the online account, even if you don't have connectivity. The advantages for me are mainly the syncing of apps, settings, documents, etc. Anything you add to Skydrive for example, will automatically be available on all your Windows 8 devices, but also in the web interface. Same goes for mail, calendar, etc and other apps also.</p>
+
+<p>There's more on <a href=""http://windows.microsoft.com/en-US/windows-8/microsoft-account#1TC=t1"" rel=""nofollow noreferrer"">Microsoft's site</a>.</p>
+",0
+"<p>See <a href=""http://code.openark.org/blog/mysql/reading-rbr-binary-logs-with-pt-query-digest"" rel=""nofollow noreferrer""><em>Reading RBR binary logs with pt-query-digest</em></a> and <a href=""https://jira.percona.com/browse/PT-1245"" rel=""nofollow noreferrer""><em>LP #1377887: pt-query-digest fails to parse binary log with RBR events</em></a></p>
+
+<p>That bug report is over 2 years old and ranked as ""low"" priority.  Suggest you add a comment to clue Percona in that there is interest in getting it fixed.</p>
+",0
