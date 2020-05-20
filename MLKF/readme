@@ -1,3 +1,4 @@
 ReadMe:
 
 Base_MLKF+w2v.py - contains base proof of concept method applied in paper.
+slt_import.py - contains dictionary lists and filters used for various tests.
