@@ -2,3 +2,4 @@ ReadMe:
 
 Base_MLKF+w2v.py - contains base proof of concept method applied in paper.
 slt_import.py - contains dictionary lists and filters used for various tests.
+basic_clustering.py - contains basic kmeans clustering to use on output of mlkf method documents
