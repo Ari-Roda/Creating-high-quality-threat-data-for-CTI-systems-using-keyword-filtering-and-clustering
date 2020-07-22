@@ -23,4 +23,5 @@ for x in epoch_list:
 		mode = 0
 		model = Word2Vec(size=vec_size, sg=mode, iter=max_epochs)
 		model.build_vocab(bigrams[sentences])
-		print (model.build_vocab(bigrams[sentences]))
+		model.train(bigrams[sentences],total_examples=model.corpus_count,epochs=model.epochs)
+		model.save("10vector50epoch_new_tweet_word2vec_model")
